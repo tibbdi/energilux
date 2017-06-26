@@ -1,0 +1,77 @@
+<!--
+    Id do Template de Prateleira: 7a91cf7a-e660-4e75-a074-14502c81ec85
+    Nome: L-prateleira-modelo
+    Classe CSS: shelf shelf-first nova
+-->
+
+#set($id = $product.Id)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+
+<div class="flag">
+    <div class="flag-discount">$product.HightLight $product.DiscountHightLight</div>
+</div> <!-- Flags -->
+
+<a title="$escapedName" href="$uri" class="collection-image-link">
+    $product.GetImageTag(180,180)
+</a> <!-- Imagem do produto -->
+
+<p class="name">
+    <a title="$escapedName" class="collection-link" href="$uri">$product.Name</a>
+</p><!-- nome do produto -->
+
+
+<!-- retirada a descricao curta da categoria
+<div class="collection-description">
+    <div class="specifications2">
+        <ul>
+            $product.DescriptionShort
+        </ul>
+    </div>
+    
+</div> -->
+
+
+
+<div class="evaluation trustvox">
+
+	
+    <!--<div data-trustvox-product-code="$product.Id"></div>-->
+
+    
+	<img src="http://www.energilux.com.br/arquivos/5estrelas.png" alt="avaliacoes"></img>
+
+</div>
+
+<!-- retirada provisoria trust 
+<div class="evaluation trustvox">
+    <div data-trustvox-product-code="$product.Id"></div>
+</div>-->
+
+
+#if ($product.IsInStock)
+<!-- se o produto estiver disponivel -->
+
+<p class="price">
+    #if ($product.HasBestPrice)
+        <a href="$uri" class="old-price">de <span>$product.ListPrice</span> por</a>
+    #end
+
+        <a href="$uri" class="best-price"><span>$product.BestPrice</span></a>
+    #if ($product.NumbersOfInstallment > 1)
+        <a href="$uri" class="installment">${product.NumbersOfInstallment}X de <span>$product.InstallmentValue</span></a>
+    #end
+</p>
+<!-- price -->
+
+<div class="buy-btn-container">
+    <a href="$uri" class="buy-btn">Comprar</a>
+</div>
+
+#else
+    <div class="price">
+        <a href="$uri" style="display: none;" class="valor-por">por <span>$product.BestPrice</span></a>
+    </div><!-- se o produto estiver indisponivel -->
+
+    <a title="$escapedName" class="out-of-stock" href="$uri">Produto Esgotado</a><!-- Produto esgoto -->
+#end

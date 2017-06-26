@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+
+    <head>
+        <vtex:template id="L-includes-header" />
+        <!-- <vtex.cmc:scriptssocial /> -->
+        
+        <vtex:metaTags/>
+
+        <link rel="stylesheet" href="/arquivos/L-product-style.css" />
+        <link rel="stylesheet" type="text/css" href="/arquivos/trustvox.css" />
+
+		<script type="text/javascript">
+            var _trustvox_shelf_rate = _trustvox_shelf_rate || [];
+            _trustvox_shelf_rate.push(['_storeId', '72644']);
+            _trustvox_shelf_rate.push(['_productContainer', '.prateleira']);
+        </script>
+        <script type="text/javascript" async="true" src="//s3-sa-east-1.amazonaws.com/trustvox-rate-widget-js/widget.js"></script>
+        <style type="text/css">
+            .trustvox-rate {float:right;}
+            .trustvox-widget-rating .ts-shelf-container,
+            .trustvox-widget-rating .trustvox-shelf-container {display: inline-block;}
+            .trustvox-widget-rating span.rating-click-here {
+                top: -3px;
+                display: inline-block;
+                position: relative;
+                color: #DAA81D;
+                font-size: 12px;
+            }
+            .trustvox-widget-rating:hover span.rating-click-here {text-decoration: underline;}
+            body.produto .trustvox-container .box-title {display:block!important;}
+        </style>
+        
+    <!-- Facebook Snippets -->
+    <vtex.cmc:productRichSnippets showFacebook="1"/>
+    
+    <!-- Twitter Snippets -->
+    <vtex.cmc:productRichSnippets Twitter="[@energilux]" />
+        
+    </head>
+
+    <body id="produto">
+    
+    <!-- Google Snippets -->
+    <vtex.cmc:productRichSnippets showGoogle="1" />
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            window._trustvox =  [];
+            _trustvox.push(['_storeId', '72644']);
+
+            _trustvox.push(['_productId',  skuJson.productId]);
+            _trustvox.push(['_productName', skuJson.name]);
+            _trustvox.push(['_productPhotos', [skuJson.skus[0].image]]);
+
+            (function() {
+                var tv = document.createElement('script'); tv.type = 'text/javascript'; tv.async = true;
+                tv.src = '//trustvox-production-assets.s3.amazonaws.com/assets/trustvox.1.min.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tv, s);
+            })();
+            $('.trustvox-fluid-jump').on('click', function(event) {
+                event.preventDefault();
+                var offset = $($(this).attr('href')).offset().top;
+                $('html, body').animate({scrollTop:offset}, 500);
+            });
+        });
+    </script>
+        <div class="page-wrapper">
+
+            <div class="page-content">
+
+                <!-- subtemplate header -->
+                <vtex:template id="L-Header" />
+                <!-- subtemplate header -->
+
+
+
+                <main class="page-main main" role="main">
+
+
+                        <div class="page-center">
+                        
+                        <div class="main-content">
+
+                            <div class="main-content">
+
+                                <div class="product-top">
+                                    <div class="product-content-header product-info-item">
+                                        <div class="product-name">
+                                            <h1> <vtex.cmc:productName/> </h1>
+                                        </div>
+                                        <!-- nome do produto -->
+
+                                        <div class="product-important-info">
+                                            <div class="product-reference">
+                                                <strong>Referencia: </strong><span><vtex.cmc:productReference/></span>
+                                            </div><!-- referencia do produto -->
+
+                                            <div class="product-reference">
+                                                | <span><vtex.cmc:brandName/></span>
+                                            </div>
+
+                                            <div class="product-warranty">
+                                                <strong>Garantia:</strong><span class="warranty"></span>
+                                            </div>
+                                            <!-- referencia do produto -->
+
+
+                                            <div class="product-evaluation">
+                                               <!-- AVALIAÇÕES VIA TRUSTVOX COMENTADO -->
+
+
+                                                <!-- Estrelas De votação real
+                                                <a class="trustvox-fluid-jump trustvox-widget-rating" href="#reviews" title="Pergunte e veja opiniões de quem já comprou">
+                                                    <div class="trustvox-shelf-container" data-trustvox-product-code-js="dataLayer[0].productId" data-trustvox-should-skip-filter="true" data-trustvox-display-rate-schema="true"></div><span class="rating-click-here">Clique e veja!</span>
+                                                </a>
+                                                -->
+                                                
+                                                
+                                                <!--<a class="trustvox-fluid-jump trustvox-widget-rating" href="#reviews" title="Pergunte e veja opiniões de quem já comprou">
+                                                <img src="http://www.energilux.com.br/arquivos/5estrelas.png" alt="avaliacoes" height="20" style="margin-top: 12px;"></img>-->
+<!-- Removido para chumbar as estrelas
+<div class="trustvox-shelf-container" data-trustvox-product-code="912067450" data-trustvox-should-skip-filter="true" data-trustvox-display-rate-schema="true"></div><span class="rating-click-here">Clique e veja!</span>
+-->                                            <!--</a>-->
+                                                
+                                                
+                                                <div class="trustvox-rate">
+                                                    <a class="trustvox-fluid-jump trustvox-widget-rating" href="#trustvox-reviews" title="Pergunte e veja opiniões de quem já comprou">
+                                                        <img src="http://www.energilux.com.br/arquivos/5estrelas.png" alt="avaliacoes"/>
+                                                        <!--<div class="trustvox-shelf-container" data-trustvox-product-code-js="dataLayer[0].productId" data-trustvox-should-skip-filter="true" data-trustvox-display-rate-schema="true"></div>
+                                                        <span class="rating-click-here">Clique e veja!</span> -->
+                                                    </a>
+                                                </div>
+                                                
+                                            </div>
+                                            
+
+                                            
+                                            <!--descricao curta ale-->
+                                            <div class="shortDescription">
+                                            <div class="specifications2">
+                                                <ul>
+                                                    <vtex.cmc:productDescriptionShort />
+                                                </ul>      
+                                            </div>
+                                            
+                                            </div>
+                                            <!--descricao curta ale-->
+                                            
+                                            
+                                            
+                                            
+                                        </div>
+                                        <span class="close-unavailable">voltar</span>
+                                        
+                                        <!-- <span class="Sugestao-Variacao-HTML-TOPO"></span> -->
+                                        
+                                    </div><!-- imagem do produto -->
+
+                                    <div class="product-image-container">
+                                    
+                                        <div class="flags">
+                                            <vtex.cmc:discountHightLight/>
+                                            <vtex.cmc:hightLight/>
+                                        </div>
+                                    
+                                        <vtex.cmc:ProductImage zoom="on" />
+                                        
+                                    </div>
+
+
+                                    <div class="product-info-container">
+
+                                        <!-- /product-content-header -->
+
+                                        <!-- <div class="flags">
+                                            <vtex.cmc:discountHightLight/>
+                                            <vtex.cmc:hightLight/>
+                                        </div> -->
+
+
+                                        <div class="product-checkout">
+
+                                            
+                                            <div class="product-info">
+                                            
+                                            
+                                                <div class="product-selection-sku">
+                                                    <vtex.cmc:skuSelection />
+                                                </div>
+                                            
+                                            
+                                            
+                                                <div class="product-price">
+                                                    <vtex.cmc:skuPrice/>
+                                                    <vtex:contentPlaceHolder id="oferta-produto" />
+                                                </div>
+                                                
+                                                <div class="kit-led">
+                                                    <span class="Sugestao-Variacao-HTML-TOPO"></span>
+                                                    <span class="Kit-HTML-TOPO"></span>
+                                                </div>
+                                                
+                                            </div>
+
+                                            <div class="product-button-buy">
+                                            
+                                                <div class="titulo-oferta-product-button-buy">Oferta Recomendada</div>
+                                            
+                                                <div class="product-immediate-delivery">
+                                                    <p class="text">
+                                                        <strong>Disponibilidade:</strong><br/>
+                                                        <span class="status">Entrega imediata</span>
+                                                    </p>
+                                                </div>
+
+                                                <vtex.cmc:BuyButton/>
+
+                                                <div class="selos-product-button-buy">
+
+                                                    <div style="width: 100px; float: left;" class="padding-l-product-button-buy">
+                                                        <a href="http://secure.vtex.com/?an=Energilux.com.br" target="_blank">
+                                                            <img src="http://io.vtex.com.br/front-libs/assets/pci/vtex-pci-100.png" width="100" height="73" align="right"></img>
+                                                        </a>
+                                                    </div>
+                                                
+                                                    <div style="width: 100px; float: right;" class="padding-r-product-button-buy">
+                                                        <a href="https://www.digicert.com/" target="_blank">
+                                                            <img src="http://bbbaterias.vteximg.com.br/arquivos/seal.digicert.png" width="100" height="73" align="right"></img>
+                                                        </a>
+                                                    </div>
+                                                
+                                                    <div style="width: 100%; height: 104px; padding-top: 10px; clear: both;">
+                                                        <div id="TRUSTEDCOMPANY_widget_104697" style="height: 104px;">
+                                                            <script src="https://d3643s33l1rfut.cloudfront.net/js/widget?w=BQYHDBEcXkJWQlRURlRSW0BeXEA"></script>
+                                                        </div>
+                                                    </div>
+                                                
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <div class="product-social">
+                                           <div class="fshare-item">
+                                                <a href="https://www.facebook.com/sharer/sharer.php?u=" class="fshare-link share--facebook" title="Facebook" onclick="window.open(this.href + window.location.href, 'facebook-share','width=580,height=296');return false;"></a>
+                                            </div><!-- fshare-item facebook -->
+
+                                            <div class="fshare-item">
+                                                <a href="http://twitter.com/share?url=" class="fshare-link share--twitter" title="Twitter" onclick="window.open(this.href + window.location.href, 'twitter-share', 'width=550,height=235');return false;"></a>
+                                            </div><!-- fshare-item twitter -->
+
+                                            <div class="fshare-item">
+                                                <a href="https://plus.google.com/share?url=" class="fshare-link share--google" title="Google+" onclick="window.open(this.href + window.location.href, 'google-plus-share', 'width=490,height=530');return false;"></a>
+                                            </div><!-- fshare-item google -->
+
+                                        </div>
+                                        <!-- redes sociais -->
+                                        <!-- Truste Vox -->
+                                        <div class="trustvox-link">
+                                          <a id="trustvox-a" href="#trustvox-reviews">
+                                            <img src="/arquivos/icon-ancora-trustvox-verde.png" />
+                                            <span>Opiniões de quem comprou</span>
+                                          </a>
+                                        </div>
+                                        <!-- /Trust Vox  -->
+                                        <a class="product-help" href="/central-de-atendimento#">
+                                            <span class="text">Atendimento</span>
+                                        </a>
+                                        
+                                        <div class="atendimento-prod" style="display: none;">
+                                          <ul>
+                                          	<li><div class="ated-uf">SP</div><div class="atend-tel">(11) 3522-8068</div></li>
+                                            <li><div class="ated-uf">RJ</div><div class="atend-tel">(21) 3527-0095</div></li>
+                                            <li><div class="ated-uf">MG</div><div class="atend-tel">(31) 4063-8638</div></li>
+                                            <li><div class="ated-uf">RS</div><div class="atend-tel">(51) 3076-0960</div></li>
+                                          </ul>
+                                        </div>
+
+                                        <div class="product-social">
+                                            <vtex:contentPlaceHolder id="fretegratis" />
+                                        </div>  
+
+
+                                        <div class="product-shipping">
+                                            <vtex.cmc:shippingValue/>
+                                        </div>
+
+                
+                                    </div>
+                                </div>
+                                <!-- /product-info-container -->
+
+
+
+
+
+
+                         <!-- aqui 1 -->
+                                                         <div class="product-bottom">
+
+                                    <div class="tabs-wrapper">
+                                        <div class="product-navigation">
+
+                                            <div class="product-navigation-list">
+
+                                            </div>
+
+                                            <!-- ocultando a primeira aba -->
+                                            <!--
+                                            <div class="product-navigation-item descricao-tab">
+                                                <a class="product-navigation-link" data-tabs="descricao">Descrição</a>
+                                            </div>
+
+                                            <section>
+                                                <div class="tabs-content" data-content-tabs="descricao">
+                                                    <div class="page-center"> -->
+                
+                                                        <!-- <vtex.cmc:ProductDescription/> -->
+                                                       <!--
+                                                       essa aba tem que estar vazia (essa frase está no template)
+                                                    </div>
+                                                </div> -->
+                                                <!-- descricao do produto -->
+                                             <!-- </section> -->
+                                             <!-- ocultando a primeira aba -->
+                                             
+                                             
+                                             
+                                             <!-- opiniao do especialista -->
+                                             <br />
+                                             <br />
+                                             <div class="opiniao-especialista" style="text-align: center">
+                                                <vtex:contentPlaceHolder id="opiniao-especialista" />
+                                            </div>    
+                                             <br />
+                                             <!-- opiniao do especialista -->
+                                             
+                                             
+                                             
+
+                                            <div class="product-navigation-item caracteristicas-tecnicas-tab">
+
+
+                                                <!-- <a class="product-navigation-link" data-tabs="caracteristicas-tecnicas">Características técnicas</a> -->
+                                                <!-- novo título para a aba -->
+                                                <a class="product-navigation-link" data-tabs="caracteristicas-tecnicas">Descrição do Produto</a>
+                                            </div>
+
+                                            <section>
+                                                <div class="tabs-content" data-content-tabs="caracteristicas-tecnicas">
+                                                    <div class="page-center"> 
+                                                        
+                                                        <!-- inicio da descrição Vtex -->
+                                                        <vtex.cmc:ProductDescription/>
+                                                        <!-- fim da descrição Vtex -->
+                                                       
+                                                        
+                                                        <!-- desrição dos campos de produto, cadastrados no produto -->
+                                                        <!-- <div class="maintit">Especificações Técnicas</div> -->
+                                                        <vtex.cmc:productSpecification/>
+                                                        <!-- teste alexandre -->
+                                                        
+                                                    </div>
+                                                </div>
+                                            </section>
+
+
+                                            <div class="product-navigation-item compatibilidades-tab">
+                                                <a class="product-navigation-link" data-tabs="compatibilidades">Compatibilidades</a>
+                                            </div>
+
+                                            <section>
+                                                <div class="tabs-content" data-content-tabs="compatibilidades">
+                                                    <div class="page-center">
+
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                            <!--<div class="product-navigation-item opinioes-tab">
+                                                <a class="product-navigation-link" data-tabs="opinioes">Opiniões sobre o produto</a>
+                                            </div>-->
+
+                                            <!--<section>
+                                                <div class="tabs-content" data-content-tabs="opinioes">
+                                                    <div class="page-center">
+                                                        <div class="section-title">Avaliação e comentários</div>-->
+                                                        <!-- <vtex.cmc:UserReview/> -->
+                                                        <!--<vtex:contentPlaceHolder id="avaliacoes" />
+                                                    </div>
+                                                </div>
+                                            </section>-->
+                                        </div>
+                                        <!-- /product-navigation -->
+
+                                    </div>
+
+                                </div>
+
+
+              
+                                
+                                <!-- compre junto -->
+                                <div class="cj">
+                                    <div class="box-title">
+                                        <h2 class="title">Selecionamos para você</h2>
+                                    </div> <!-- title --> 
+                                        <vtex.cmc:BuyTogether/>
+                                </div>
+                                <!-- compre junto -->
+                                
+                                <!-- avaliações TrustedCompany -->
+                                <div style="margin-bottom: 10px; display: inline-block; width: 100%;">
+                                    <vtex:contentPlaceHolder id="Avaliacoes-TrustedCompany" />
+                                </div>
+                                <!-- avaliações TrustedCompany -->
+                                
+                                <div class="qvvt">
+                                    <!-- Quem viu, viu também -->
+                                    <div class="box-title qvvtb">
+                                        <h2 class="title">Quem viu, viu também</h2>
+                                    </div> 
+                                    
+                                    <div class="slick-carousel qvvtb">
+                                        <vtex:contentPlaceHolder id="quem-viu-viu" />
+                                    </div>
+                                    <!-- Quem viu, viu também -->
+                                
+                                    <!-- Você também pode se interessar por -->
+                                    <div class="box-title">
+                                        <h2 class="title">Você também pode se interessar por</h2>
+                                    </div> <!-- title -->
+
+                                    <div class="slick-carousel">
+                                        <vtex:contentPlaceHolder id="quem-viu-viu-tambem" />
+                                    </div>
+                                    <!-- Você também pode se interessar por -->
+                                    
+                                </div>
+                                <!-- quem viu viu tambem -->
+                                <br />
+                                 
+                                 
+                                    <!--  avaliacoes Energilux -->
+                                    <vtex:template id="Energilux-avaliacoes" />
+                                    <!--  avaliacoes Energilux -->
+                                     
+                                    <!--<vtex:template id="avaliaproduct" />-->
+                                 
+                                 
+                                 
+                                 
+                                <!--
+                                <div class="trustvox-container">
+                                    <span id="trustvox-reviews"></span>
+                                    <div class="box-title"><h2 class="title">Pergunte e veja opiniões de quem já comprou</h2></div>
+                                    <div id="_trustvox_widget"></div>
+                                    </div>
+                                -->
+                              
+
+
+
+
+
+
+
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                        </div>
+                        
+                        </div>
+
+                </main>
+                <!-- page-main -->
+
+                <div class="c-both"></div>
+
+            </div><!-- page-content -->
+
+            <!-- subtemplate footer -->
+            <vtex:template id="L-Footer" />
+            <!-- subtemplate footer -->
+
+        </div><!-- page-wrapper -->
+
+        <!-- scripts -->
+        <vtex:template id="L-scripts-includes" />
+        <!-- exclusive scripts -->
+        <vtex:template id="energilux-exclusive-scripts" />
+        <!-- scripts -->
+        
+    </body>
+</html>

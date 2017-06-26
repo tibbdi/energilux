@@ -1,0 +1,140 @@
+<!--
+    Id do Template de Prateleira: 0f6374d5-7dbf-4835-a86b-8ed2bb2f89bb
+    Nome: L-prateleira-busca
+    Classe CSS: shelf shelf-first nova
+-->
+
+#set($id = $product.Id)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+
+<div class="flag">
+    <div class="flag-discount">$product.HightLight $product.DiscountHightLight</div>
+</div> <!-- Flags -->
+
+
+
+<a title="$escapedName" href="$uri" class="collection-image-link">
+    $product.GetImageTag(180,180)
+</a> <!-- Imagem do produto -->
+
+
+
+<div class="floatleft">
+<p class="name">
+    <a title="$escapedName" class="collection-link" href="$uri">$product.Name</a>
+</p><!-- nome do produto -->
+
+<div class="fontlow">
+Categoria: 
+<a title="$product.CategoryName" href="$product.CategoryLink" class="brandName">
+    $product.CategoryName
+</a> <!-- categoria -->
+
+| SKU: $product.Id
+</div>
+
+<div class="collection-description">
+    <div class="specifications2">
+<ul>
+	$product.DescriptionShort
+</ul>
+    </div>
+</div><!-- descricao do produto -->
+
+
+
+
+
+
+<div class="bottom-main">
+<ul>
+
+
+
+<li>
+<img src="http://www.energilux.com.br/arquivos/Lumens_Icon40.jpg" alt="lumens">
+<div class="lumens">
+$product.ProductField(1449)
+$product.ProductField(1426)
+$product.ProductField(1360)
+$product.ProductField(1329)
+$product.ProductField(1287)
+$product.ProductField(1232)
+$product.ProductField(336)
+$product.ProductField(238)
+$product.ProductField(50)
+$product.ProductField(47)
+$product.ProductField(44)
+</div>
+</li>
+
+
+<li>
+<img src="http://www.energilux.com.br/arquivos/warranty-shield.png" alt="garantia">
+<div class="lumens">
+$product.ProductField(1454)
+$product.ProductField(1425)
+$product.ProductField(1371)
+$product.ProductField(1342)
+$product.ProductField(1335)
+$product.ProductField(1316)
+$product.ProductField(649)
+$product.ProductField(644)
+$product.ProductField(643)
+$product.ProductField(642)
+$product.ProductField(641)
+</div>
+</li>
+
+
+<li>
+<a title="avaliacoes" href="$uri" class="5estrelas">
+  <img src="http://www.energilux.com.br/arquivos/5estrelas.png" alt="avaliacoes">
+</a>
+</li>
+
+
+
+
+
+</ul>
+
+</div>
+
+
+
+
+
+</div>
+
+
+<div class="floatright">
+#if ($product.IsInStock)
+<!-- se o produto estiver disponivel -->
+
+<p class="price">
+    #if ($product.HasBestPrice)
+        <a href="$uri" class="old-price">de <span>$product.ListPrice</span> por</a>
+    #end
+
+        <a href="$uri" class="best-price"><span>$product.BestPrice</span></a>
+    #if ($product.NumbersOfInstallment > 1)
+        <a href="$uri" class="installment">${product.NumbersOfInstallment}X de <span>$product.InstallmentValue</span></a>
+    #end
+</p>
+<!-- price -->
+
+<div class="buy-btn-container">
+    <a href="$uri" class="buy-btn">Comprar</a>
+</div>
+
+#else
+    <div class="price">
+        <a href="$uri" style="display: none;" class="valor-por">por <span>$product.BestPrice</span></a>
+    </div><!-- se o produto estiver indisponivel -->
+
+    <a title="$escapedName" class="out-of-stock" href="$uri">Produto Esgotado</a><!-- Produto esgotado -->
+#end
+
+</div>

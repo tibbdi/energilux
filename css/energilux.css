@@ -8887,6 +8887,13 @@ float: left;
 		display: none;
 	}
 
+    .nv_menu li ul .sub_menu_imagem #img-sm-2-7 {
+		width: 418px;
+		height: 260px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-2.jpg) no-repeat -1px -1775px;
+		display: none;
+	}
+
 
 
 
@@ -11253,3 +11260,10 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
 }
 
 /* Nova coleção BF/BQ */
+
+/* Alterada votação */
+.tc-widget-standard-content .tc-widget-reviewcount:before {
+    content: "3";
+    font-size: .99em;
+}
+/* Alterada votação */

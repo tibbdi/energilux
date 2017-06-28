@@ -1,4 +1,4 @@
-ï»¿@-ms-keyframes upToDown {
+@-ms-keyframes upToDown {
     from {
         margin-top: -130px
     }
@@ -784,11 +784,9 @@ body {
 
 
 /* retirada do header flutuante
-
 .floating-menu body {
     padding-top: 105px
 }
-
 .floating-menu .page-header {
     position: relative;
     top: 0px;
@@ -796,7 +794,6 @@ body {
     height: 105px;
     z-index: 6000
 }
-
 .floating-menu .header-wrapper {
     position: fixed;
     height: 105px;
@@ -816,45 +813,37 @@ body {
     -o-transform: translateZ(0);
     transform: translateZ(0)
 }
-
 .floating-menu .welcome-message .welcome {
     margin-top: 15px
 }
-
 .floating-menu .welcome-message .compre-tel{
     margin-top: 15px;
     margin-right: 10px;
 }
-
 .floating-menu .logo-wrapper {
     margin: 7px 69px 24px 20px;
     width: 90px;
     height: 90px;
     background: url("/arquivos/logo-bb-marca.png")
 }
-
 .floating-menu .logo-wrapper img {
     width: 130px;
     height: auto;
     display: none
 }
-
 .floating-menu .search {
     margin-top: 35px
 }
-
 .floating-menu .search .fulltext-search-box {
     height: 35px;
     padding: 8px 10px;
     width: 420px
 }
-
 .floating-menu .search .btn-buscar {
     width: 35px;
     height: 35px;
     background-size: 35px 35px
 }
-
 .floating-menu .telesales a.link {
     width: 160px;
     height: 35px;
@@ -864,24 +853,20 @@ body {
     font-size: 13px;
     font-size: 0.8125rem
 }
-
 .floating-menu .telesales a.link .ico {
     width: 22px;
     height: 23px;
     background-size: 100% 100%
 }
-
 .floating-menu .cart {
     margin-top: 35px;
     height: 35px
 }
-
 .floating-menu .cart .ico {
     width: 43px;
     height: 35px;
     background-size: 100% 100%
 }
-
 */
 
 
@@ -1018,7 +1003,7 @@ ul.ui-autocomplete li.ui-menu-item a.ui-corner-all img {
 
 .telesales .link,.cart {
     background: #4c4c4c;
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodÃ¢â‚¬Â¦EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
     background: -moz-linear-gradient(top, #4c4c4c 0%, #282828 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4c4c4c), color-stop(100%, #282828));
     background: -webkit-linear-gradient(top, #4c4c4c 0%, #282828 100%);
@@ -1963,7 +1948,7 @@ ul.ui-autocomplete li.ui-menu-item a.ui-corner-all img {
 
 .shelf ul li .collection-image-link img {
     display: inline-block;
-	/* NÃ£o deixar ("height: 100%;") porque nÃ£o aparece as imagens no primeiro carregamento */ 
+	/* Não deixar ("height: 100%;") porque não aparece as imagens no primeiro carregamento */ 
 }
 
 .shelf ul li .name {
@@ -2411,13 +2396,13 @@ th.name-field.Descricao-HTML {
     width: 100%;
 }
 .colecaoa::before {
-    background-image: url("arquivos/colecaoa.png")
+    background-image: url("http://bbbaterias.vteximg.com.br/arquivos/colecaoa.png")
 }
 .colecaob::before {
-    background-image: url("arquivos/colecaob.png")
+    background-image: url("http://bbbaterias.vteximg.com.br/arquivos/colecaob.png")
 }
 .colecaoc::before {
-    background-image: url("arquivos/colecaoc.png")
+    background-image: url("http://bbbaterias.vteximg.com.br/arquivos/colecaoc.png")
 }
 @media (max-width: 600px) {
     .colecaoa::before,
@@ -3772,7 +3757,7 @@ ul.Marca+.veja-mais {
     top: -10px;
     width: 25px;
     height: 32px;
-    background: url('arquivos/icons-energilux-s7c190d4b23.png') -48px -3605px;
+    background: url('http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png') -48px -3605px;
 }
 
 .product-info-container .atendimento-prod {
@@ -6279,7 +6264,7 @@ display: none
 
 
 
-/* iPad deitado: atÃ© 1023 */
+/* iPad deitado: até 1023 */
 @media (max-width: 1023px) {
 
   .nav-item.bateria-departamentos, .subnav.todos-departamentos{
@@ -7764,7 +7749,7 @@ display: none
 .product-info-container .product-checkout .buy-button:before {
     left: 20px;
     top: 18px;
-    background-image: url('arquivos/icons-energilux-s7c190d4b23.png?v=9996663663&amp;utm_source=9988855225')!important;
+    background-image: url('http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png?v=9996663663&amp;utm_source=9988855225')!important;
 	background-position: -3px -355px!important;
 }
 /*.buy-button {
@@ -8555,7 +8540,7 @@ float: left;
 	}
 }
 
-/* CorreÃ§Ã£o do zoom por cima do menu */
+/* Correção do zoom por cima do menu */
 .zoomWindow { z-index: 1 !important; }
 
 
@@ -8599,7 +8584,7 @@ float: left;
 		width: 25px;
 		height: 50px;
 		float: right;
-		background: url(arquivos/nv_menu_seta_orange_lado.png) no-repeat center;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/nv_menu_seta_orange_lado.png) no-repeat center;
 		-webkit-transition: all 800ms ease-in-out;
 		-moz-transition: all 800ms ease-in-out;
 		-ms-transition: all 800ms ease-in-out;
@@ -8608,7 +8593,7 @@ float: left;
 	}
 
 	.nv_menu li:hover .seta {
-		background: url(arquivos/nv_menu_seta_blue_lado.png) no-repeat center;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/nv_menu_seta_blue_lado.png) no-repeat center;
 		-webkit-transition: all 800ms ease-in-out;
 		-moz-transition: all 800ms ease-in-out;
 		-ms-transition: all 800ms ease-in-out;
@@ -8752,7 +8737,7 @@ float: left;
 		padding-bottom: 14px;
 		margin-left: 15px;
 		padding-left: 15px;
-		background: url(arquivos/nv_menu_seta_orange_lado_pequena.png) no-repeat 0px 5px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/nv_menu_seta_orange_lado_pequena.png) no-repeat 0px 5px;
 		-webkit-transition: all 100ms ease-in-out;
 		-moz-transition: all 100ms ease-in-out;
 		-ms-transition: all 100ms ease-in-out;
@@ -8766,7 +8751,7 @@ float: left;
 	}
 
 	.nv_menu li ul .sub_menu_lista .lista:hover {
-		background: url(arquivos/nv_menu_seta_blue_lado_pequena.png) no-repeat 0px 5px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/nv_menu_seta_blue_lado_pequena.png) no-repeat 0px 5px;
 		-webkit-transition: all 100ms ease-in-out;
 		-moz-transition: all 100ms ease-in-out;
 		-ms-transition: all 100ms ease-in-out;
@@ -8788,56 +8773,56 @@ float: left;
 	.nv_menu li ul .sub_menu_imagem #img-sm-1-1 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-1.jpg) no-repeat -1px -26px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-1.jpg) no-repeat -1px -26px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-1-2 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-1.jpg) no-repeat -1px -326px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-1.jpg) no-repeat -1px -326px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-1-3 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-1.jpg) no-repeat -1px -607px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-1.jpg) no-repeat -1px -607px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-1-4 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-1.jpg) no-repeat -1px -891px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-1.jpg) no-repeat -1px -891px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-1-5 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-1.jpg) no-repeat -1px -1187px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-1.jpg) no-repeat -1px -1187px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-1-6 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-1.jpg) no-repeat -1px -1480px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-1.jpg) no-repeat -1px -1480px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-1-7 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-1.jpg) no-repeat -1px -1782px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-1.jpg) no-repeat -1px -1782px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-1-8 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-1.jpg) no-repeat -1px -2092px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-1.jpg) no-repeat -1px -2092px;
 		display: none;
 	}
 
@@ -8848,49 +8833,49 @@ float: left;
 	.nv_menu li ul .sub_menu_imagem #img-sm-2-1 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-2.jpg) no-repeat -1px -26px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-2.jpg) no-repeat -1px -26px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-2-2 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-2.jpg) no-repeat -1px -326px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-2.jpg) no-repeat -1px -326px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-2-3 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-2.jpg) no-repeat -1px -608px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-2.jpg) no-repeat -1px -608px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-2-4 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-2.jpg) no-repeat -1px -892px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-2.jpg) no-repeat -1px -892px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-2-5 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-2.jpg) no-repeat -1px -1179px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-2.jpg) no-repeat -1px -1179px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-2-6 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-2.jpg) no-repeat -1px -1471px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-2.jpg) no-repeat -1px -1471px;
 		display: none;
 	}
 
     .nv_menu li ul .sub_menu_imagem #img-sm-2-7 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-2.jpg) no-repeat -1px -1775px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-2.jpg) no-repeat -1px -1775px;
 		display: none;
 	}
 
@@ -8901,28 +8886,28 @@ float: left;
 	.nv_menu li ul .sub_menu_imagem #img-sm-3-1 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-3.jpg) no-repeat -1px -33px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-3.jpg) no-repeat -1px -33px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-3-2 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-3.jpg) no-repeat -1px -333px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-3.jpg) no-repeat -1px -333px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-3-3 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-3.jpg) no-repeat -1px -630px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-3.jpg) no-repeat -1px -630px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-3-4 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-3.jpg) no-repeat -1px -940px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-3.jpg) no-repeat -1px -940px;
 		display: none;
 	}
 
@@ -8933,63 +8918,63 @@ float: left;
 	.nv_menu li ul .sub_menu_imagem #img-sm-4-1 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-4.jpg) no-repeat -1px -31px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-4.jpg) no-repeat -1px -31px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-4-2 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-4.jpg) no-repeat -1px -323px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-4.jpg) no-repeat -1px -323px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-4-3 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-4.jpg) no-repeat -1px -615px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-4.jpg) no-repeat -1px -615px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-4-4 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-4.jpg) no-repeat -1px -907px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-4.jpg) no-repeat -1px -907px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-4-5 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-4.jpg) no-repeat -1px -1497px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-4.jpg) no-repeat -1px -1497px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-4-6 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-4.jpg) no-repeat -1px -1792px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-4.jpg) no-repeat -1px -1792px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-4-7 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-4.jpg) no-repeat -1px -2081px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-4.jpg) no-repeat -1px -2081px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-4-8 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-4.jpg) no-repeat -1px -2398px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-4.jpg) no-repeat -1px -2398px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-4-9 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-4.jpg) no-repeat -1px -2724px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-4.jpg) no-repeat -1px -2724px;
 		display: none;
 	}
 
@@ -9000,49 +8985,49 @@ float: left;
 	.nv_menu li ul .sub_menu_imagem #img-sm-5-1 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-5.jpg) no-repeat -1px -31px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-5.jpg) no-repeat -1px -31px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-5-2 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-5.jpg) no-repeat -1px -338px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-5.jpg) no-repeat -1px -338px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-5-3 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-5.jpg) no-repeat -1px -653px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-5.jpg) no-repeat -1px -653px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-5-4 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-5.jpg) no-repeat -1px -964px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-5.jpg) no-repeat -1px -964px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-5-5 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-5.jpg) no-repeat -1px -1275px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-5.jpg) no-repeat -1px -1275px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-5-6 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-5.jpg) no-repeat -1px -1590px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-5.jpg) no-repeat -1px -1590px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-5-7 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-5.jpg) no-repeat -1px -1904px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-5.jpg) no-repeat -1px -1904px;
 		display: none;
 	}
 
@@ -9053,80 +9038,80 @@ float: left;
 	.nv_menu li ul .sub_menu_imagem #img-sm-6-1 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-6.jpg) no-repeat -1px -31px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-6.jpg) no-repeat -1px -31px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-6-2 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-6.jpg) no-repeat -1px -320px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-6.jpg) no-repeat -1px -320px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-6-3 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-6.jpg) no-repeat -1px -612px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-6.jpg) no-repeat -1px -612px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-6-4 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-6.jpg) no-repeat -1px -910px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-6.jpg) no-repeat -1px -910px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-6-5 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-6.jpg) no-repeat -1px -1213px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-6.jpg) no-repeat -1px -1213px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-6-6 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-6.jpg) no-repeat -1px -1517px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-6.jpg) no-repeat -1px -1517px;
 		display: none;
 	}
 
 	.nv_menu li ul .sub_menu_imagem #img-sm-6-7 {
 		width: 418px;
 		height: 260px;
-		background: url(arquivos/img-sub-menu-6.jpg) no-repeat -1px -1817px;
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/img-sub-menu-6.jpg) no-repeat -1px -1817px;
 		display: none;
 	}
 	
 .nv_menu .sub_menu_imagem_banner_1 {
     width: 420px;
     height: 262px;
-    background: url(arquivos/Imagens-Menu-LAMPADA.jpg);
+    background: url(http://bbbaterias.vteximg.com.br/arquivos/Imagens-Menu-LAMPADA.jpg);
 }
 
 .nv_menu .sub_menu_imagem_banner_2 {
     width: 420px;
     height: 262px;
-    background: url(arquivos/Imagens-Menu-PLAFON.jpg);
+    background: url(http://bbbaterias.vteximg.com.br/arquivos/Imagens-Menu-PLAFON.jpg);
 }
 
 .nv_menu .sub_menu_imagem_banner_3 {
     width: 420px;
     height: 262px;
-    background: url(arquivos/Imagens-Menu-SPOT.jpg);
+    background: url(http://bbbaterias.vteximg.com.br/arquivos/Imagens-Menu-SPOT.jpg);
 }
 
 .nv_menu .sub_menu_imagem_banner_4 {
     width: 420px;
     height: 262px;
-    background: url(arquivos/Imagens-Menu-REFLETOR.jpg);
+    background: url(http://bbbaterias.vteximg.com.br/arquivos/Imagens-Menu-REFLETOR.jpg);
 }
 
 .nv_menu .sub_menu_imagem_banner_5 {
     width: 420px;
     height: 262px;
-    background: url(arquivos/Imagens-Menu-FITA.jpg);
+    background: url(http://bbbaterias.vteximg.com.br/arquivos/Imagens-Menu-FITA.jpg);
 }
 
 @media (max-width: 1023px) {
@@ -9145,7 +9130,7 @@ float: left;
 
 }
 
-.page-footer .vendors .list .list-item.bbdi { position: relative; margin: 0 30px 0 0 } .page-footer .vendors .list .list-item.bbdi:before { content: "Uma empresa do"; position: absolute; top: -14px; color: #555; font-size: 10px; font-size: 0.625rem } .page-footer .vendors .list .list-item.bbdi a { display: inline-block; background-repeat: no-repeat; background-image: url("arquivos/mini-logo_grupo-bbdi.png"); background-position: 0 6px; height: 31px; width: 106px }
+.page-footer .vendors .list .list-item.bbdi { position: relative; margin: 0 30px 0 0 } .page-footer .vendors .list .list-item.bbdi:before { content: "Uma empresa do"; position: absolute; top: -14px; color: #555; font-size: 10px; font-size: 0.625rem } .page-footer .vendors .list .list-item.bbdi a { display: inline-block; background-repeat: no-repeat; background-image: url("http://bbbaterias.vteximg.com.br/arquivos/mini-logo_grupo-bbdi.png"); background-position: 0 6px; height: 31px; width: 106px }
 
 @media (min-width: 1024px) {
 	.header-wrapper .logo-wrapper .logo img {
@@ -9409,7 +9394,7 @@ float: left;
 }
 /* WIKI */
 
-/*Selecionamos para vocÃª*/
+/*Selecionamos para você*/
 .cj table {
 	margin: 0 auto;
 }
@@ -9607,7 +9592,7 @@ float: left;
     content: "COMPRE JUNTO";
     font-size: 20px
 }
-/*Selecionamos para vocÃª*/
+/*Selecionamos para você*/
 
 @media (min-width: 1024px) {
 	.trustvox-rate {
@@ -9759,7 +9744,7 @@ float: left;
     top: 50%;
     left: 50%;
     margin: -209px 0 0 -411px;
-	background: url(arquivos/bg-power-cadastro-energilux-um.png?v=2);
+	background: url(http://bbbaterias.vteximg.com.br/arquivos/bg-power-cadastro-energilux-um.png?v=2);
 }
  .moda-power-cadastro .modal-fechar {
     width: 100%;
@@ -9773,11 +9758,11 @@ float: left;
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url(arquivos/modal-desconto-fechar-energilux.jpg);
+    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/modal-desconto-fechar-energilux.jpg);
     cursor: pointer
 }
  .moda-power-cadastro .modal-fechar span:before {
-    content: "NÃ£o gosto de descontos";
+    content: "Não gosto de descontos";
     width: 135px;
     position: absolute;
     top: 6px;
@@ -9976,7 +9961,7 @@ float: left;
     font-weight: 400
 }
  .moda-power-cadastro.modal-sucesso {
-    background-image: url(arquivos/bg-power-cadastro-energilux-um.png?v=2)
+    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/bg-power-cadastro-energilux-um.png?v=2)
 }
  .moda-power-cadastro.modal-sucesso .modal-fechar span:before {
     display: none
@@ -10031,7 +10016,7 @@ float: left;
         width: 358px;
         height: 494px;
         margin: -247px 0 0 -179px;
-		background: url(arquivos/bg-power-cadastro-energilux-dois.png?v=2);
+		background: url(http://bbbaterias.vteximg.com.br/arquivos/bg-power-cadastro-energilux-dois.png?v=2);
     }
      .moda-power-cadastro .modal-texto {
         height: 273px;
@@ -10092,7 +10077,7 @@ float: left;
         line-height: 42px
     }
      .moda-power-cadastro.modal-sucesso {
-        background-image: url(arquivos/bg-power-cadastro-energilux-dois.png?v=2)
+        background-image: url(http://bbbaterias.vteximg.com.br/arquivos/bg-power-cadastro-energilux-dois.png?v=2)
     }
 }
 #overlay{display:none;width:100%;height:100%;position:fixed;z-index:9999;top:0;left:0;background-color:rgba(0,0,0,0.5)}
@@ -10120,7 +10105,7 @@ float: left;
 	}
 }
 
-/* Ajuste Ãšltimas Reviews abaixo de 1300 departamento/categoria */
+/* Ajuste Últimas Reviews abaixo de 1300 departamento/categoria */
 @media (min-width: 1023px) and (max-width: 1300px) {
 	.ultimas-reviews .box-pai-um {
 		width: 20%;
@@ -10134,13 +10119,12 @@ float: left;
 		float: left;
 	}
 }
-/* Ajuste Ãšltimas Reviews abaixo de 1300 departamento/categoria */
+/* Ajuste Últimas Reviews abaixo de 1300 departamento/categoria */
 
 /* flag led-bq-3k !!!DESATIVADA!!!
 .flag .led-bq-3k {
     color: transparent;
 }
-
 .flag .led-bq-3k::before {
     position: absolute;
     top: 128px;
@@ -10154,7 +10138,6 @@ float: left;
     background-size: contain;
     background-position: right;
 }
-
 @media (max-width: 1023px) {
 	.flag .led-bq-3k {
 		color: transparent;
@@ -10174,7 +10157,6 @@ float: left;
 		background-position: right;
 	}
 }
-
 @media (max-width: 550px) {
 	.flag .led-bq-3k {
 		color: transparent;
@@ -10200,7 +10182,6 @@ float: left;
 .flag .led-bf-6k {
     color: transparent;
 }
-
 .flag .led-bf-6k::before {
     position: absolute;
     top: 128px;
@@ -10214,7 +10195,6 @@ float: left;
     background-size: contain;
     background-position: right;
 }
-
 @media (max-width: 1023px) {
 	.flag .led-bf-6k {
 		color: transparent;
@@ -10234,7 +10214,6 @@ float: left;
 		background-position: right;
 	}
 }
-
 @media (max-width: 550px) {
 	.flag .led-bf-6k {
 		color: transparent;
@@ -10273,12 +10252,12 @@ float: left;
 .flags .led-bf-6k { display: none; }
 /* oculta .led-bq-3k, .led-bf-6k  pagina produto temporario */
 
-/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em EspecificaÃ§Ãµes TÃ©cnicas */
+/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em Especificações Técnicas */
 #caracteristicas .Kit-HTML { display: none; }
 #caracteristicas .Sugestao-Variacao-HTML { display: none; }
-/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em EspecificaÃ§Ãµes TÃ©cnicas */
+/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em Especificações Técnicas */
 
-/* sugestÃ£o de compra pagina produtos */
+/* sugestão de compra pagina produtos */
 
 .sugestao-de-temperatura {
 	width: 100%;
@@ -10288,7 +10267,7 @@ float: left;
     margin-top: 20px;
 }
 
-.sugestÃ£o-de-compra {
+.sugestão-de-compra {
     margin-top: 25px;
 }
 
@@ -10398,7 +10377,7 @@ float: left;
 	font-weight: bold;
 }
 
-/* sugestÃ£o de compra pagina produtos */
+/* sugestão de compra pagina produtos */
 
 /* corporativo energilux */
 .para-empresas {
@@ -11082,7 +11061,7 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
 }
 /* Ajustes Novos selos product-button-buy */
 
-/* Nova coleÃ§Ã£o BF/BQ */
+/* Nova coleção BF/BQ */
 .bf-6w,
 .bq-6w,
 .bf-12w,
@@ -11259,11 +11238,11 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
     }
 }
 
-/* Nova coleÃ§Ã£o BF/BQ */
+/* Nova coleção BF/BQ */
 
-/* Alterada votaÃ§Ã£o */
+/* Alterada votação */
 .tc-widget-standard-content .tc-widget-reviewcount:before {
     content: "3";
     font-size: .99em;
 }
-/* Alterada votaÃ§Ã£o */
+/* Alterada votação */

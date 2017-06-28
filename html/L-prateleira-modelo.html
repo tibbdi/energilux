@@ -1,4 +1,4 @@
-<!--
+﻿<!--
     Id do Template de Prateleira: 7a91cf7a-e660-4e75-a074-14502c81ec85
     Nome: L-prateleira-modelo
     Classe CSS: shelf shelf-first nova
@@ -8,9 +8,11 @@
 #set($uri = $product.Uri)
 #set($escapedName = $product.HtmlEscapedName)
 
-<div class="flag">
-    <div class="flag-discount">$product.HightLight $product.DiscountHightLight</div>
-</div> <!-- Flags -->
+<a href="$uri">
+    <div class="flag">
+        <div class="flag-discount">$product.HightLight $product.DiscountHightLight</div>
+    </div>
+</a><!-- Flags -->
 
 <a title="$escapedName" href="$uri" class="collection-image-link">
     $product.GetImageTag(180,180)

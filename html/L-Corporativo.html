@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="pt-br" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+
+    <head>
+
+        <!-- Tag Padrão Vtex desabilitadas na energilux
+        <vtex:metaTags/> 
+        -->
+
+        <!-- inicio tags colocadas manual -->
+        <script> document.title = "Corporativo - EnergiLux"; </script>
+        <meta name="title" content="Corporativo - EnergiLux"/>
+        <title>Corporativo - EnergiLux</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="description" content="Somos uma empresa focada nas pessoas, em seu bem-estar e conforto. Entre em nosso site, conheça um pouco mais sobre nós e confira nossos produtos!" />
+        <meta name="keywords" content="quem é energilux, energilux empresa, saiba mais energilux" />
+        <meta name="Abstract" content="Lâmpadas, Luminárias, Refletoress e mais | Energilux" />
+        <meta name="author" content="Energilux" />
+        <meta name="copyright" content="Energilux" />
+        <meta name="vtex-version" content="1.4.663.1157" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <!-- fim tags colocadas manual  -->
+
+        <vtex:template id="L-includes-header" />
+    </head>
+
+    <body>
+        <div class="page-wrapper">
+            <div class="page-content">
+                <!-- subtemplate header -->
+                <vtex:template id="L-Header" />
+                <!-- subtemplate header -->
+
+                <main role="main">
+
+                    <!-- inicio corporativo -->
+                    
+                        <div class="l-corporativo">
+                        
+                        
+                        <div class="para-empresas">
+                        
+                            <vtex:contentPlaceHolder id="info" />
+                            
+                        </div>
+                        
+                        
+                        <div class="banner-para-empresas">
+                        
+                            <div class="pr-banner_site_desktop">
+                                <center>
+                                
+                                    <vtex:contentPlaceHolder id="banner-desktop" />
+                                    
+                                </center>
+                            </div>
+                            
+                            <div class="pr-banner_site_mobile">
+                                <center>
+                                
+                                    <vtex:contentPlaceHolder id="banner-mobile" />
+                                    
+                                </center>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                        <div class="disponivel-empresa">
+                        
+                        	<div class="center">
+                        
+                        	    <vtex:contentPlaceHolder id="bloco-vantagens-titulo" />
+                                
+                                <div class="center-img">
+                                
+                                    <vtex:contentPlaceHolder id="bloco-vantagens-icones" />
+                                
+                                </div>
+                                
+                        	</div>
+                        
+                        </div>
+                        
+                        
+                        <div class="confiam-empresa">
+                        
+                        	<div class="center">
+                        
+                        	    <vtex:contentPlaceHolder id="bloco-empresas-titulo" />
+                                
+                                <div class="center-img">
+                                    
+                                    <vtex:contentPlaceHolder id="bloco-empresas-icones" />
+                                    
+                                </div>
+                                
+                        	</div>
+                        
+                        </div>
+                        
+                        
+                        <div class="contato-empresa">
+                        
+                        	<div class="center">
+                            
+                            	<div class="portelefone">
+                                
+                                	<div class="titulo">Compre por telefone</div>
+                                
+                                	<div class="call-local">
+                                	
+                                	    <div style="line-height: 25px;">0800-600-0001</div>
+                                                    
+                                    	<u><a href="/central-de-atendimento#">veja outras localidades</a></u>
+                                    
+                                    </div>
+                                    
+                                    <div class="funcionamento">
+                                    
+                                    	<div class="funcionamento-pt-um">
+                                        
+                                            <div style="line-height: 25px;">horário de funcionamento</div>
+                                            
+                                            (exceto feriados)
+                                        
+                                        </div>
+                                        
+                                        <div class="funcionamento-pt-dois">
+                                        
+                                            <div style="line-height: 25px;">segunda a sexta</div>
+                                            
+                                            das 8h30min às 18h
+                                        
+                                        </div>
+                                                   
+                                    </div>                
+                                    
+                                    <div class="pr_empresas_mail">
+                                    
+                                    	<u><a href="mailto:comercial@energilux.com.br">comercial@energilux.com.br</a></u>
+                                        
+                                    </div>    
+                                
+                                </div>
+                                
+                                
+                        		<script type="text/javascript">
+                                
+                        			function mascara(o, f) {
+                        				v_obj = o
+                        				v_fun = f
+                        				setTimeout("execmascara()", 1)
+                        			}
+                        			
+                        			function execmascara() {
+                        				v_obj.value = v_fun(v_obj.value)
+                        			}
+                        			
+                        			function mtel(v) {
+                        				v = v.replace(/\D/g, "");
+                        				v = v.replace(/^(\d{2})(\d)/g, "($1) $2");
+                        				v = v.replace(/(\d)(\d{4})$/, "$1$2");
+                        				return v;
+                        			}
+                        			
+                        			function id(el) {
+                        				return document.getElementById(el);
+                        			}
+                        			window.onload = function() {
+                        				id('telefone').onkeypress = function() {
+                        					mascara(this, mtel);
+                        				}
+                        			}
+                                
+                                </script>
+                        
+                                <div class="liguenos">
+                                
+                                	<div class="titulo">Nós te ligamos</div>
+                                                  
+                                    <div class="texto">Digite seu telefone e aguarde o contato de um de nossos atendentes.</div>
+                                    
+                                    <form action="http://webserver.bbdi.com.br/energilux-liguenos/index.php" method="post">
+                            
+                                        <div class="base-input">
+                                        
+                                            <div class="nome">Nome:</div>
+                                        
+                                            <div class="nome-input"><input type="text" name="nome" placeholder="Seu nome" required=""></input></div>
+                                            
+                                        </div>
+                                        
+                                        <div class="base-input">
+                                                    
+                                            <div class="telefone">Telefone:</div>
+                                            
+                                            <div class="telefone-input"><input type="text" name="telefone" id="telefone" maxlength="14" placeholder="Seu telefone" required=""></input></div>
+                                        
+                                        </div>
+                                        
+                                        <div class="base-input">
+                                        
+                                            <div class="email">E-mail:</div>
+                                            
+                                            <div class="email-input"><input type="email" name="email" placeholder="Seu e-mail (Opcional)"></input></div>
+                                        
+                                        </div>
+                                                    
+                                        <div class="base-submit">
+                                        
+                                            <input type="submit" value="Receber a ligação"></input>
+                                        
+                                        </div>
+                                                
+                                    </form>
+                                    
+                                </div>
+                            
+                            	<div style="clear: both;"></div>
+                            
+                            </div>
+                        
+                        </div>
+                        
+                        
+                        <div class="home-redes-empresa">
+                        
+                        	<div class="center">
+                        
+                        		<a href="https://www.energilux.com.br"><div class="home"></div></a>
+                                
+                                	<div class="base-redes">
+                                    	<a href="https://www.facebook.com/energilux" target="_blank"><div class="facebook opacity"></div></a>
+                                        <a href="https://twitter.com/energilux" target="_blank"><div class="twitter opacity"></div></a>
+                                    </div>
+                                    
+                                    <div style="clear: both;"></div>
+                                
+                        	</div>
+                        
+                        </div>
+                        
+                        
+                        </div>
+                     
+                    <!-- fim corporativo -->
+                    
+                </main><!-- page-main -->
+
+                <div class="c-both"></div>
+            </div><!-- page-content -->
+
+            <!-- subtemplate footer -->
+            <vtex:template id="L-Footer" />
+            <!-- subtemplate footer -->
+        </div><!-- page-wrapper -->
+
+        <!-- scripts -->
+        <vtex:template id="L-scripts-includes" />
+        <!-- scripts -->
+    </body>
+</html>

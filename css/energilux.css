@@ -1948,7 +1948,7 @@ ul.ui-autocomplete li.ui-menu-item a.ui-corner-all img {
 
 .shelf ul li .collection-image-link img {
     display: inline-block;
-	/* Não deixar ("height: 100%;") porque não aparece as imagens no primeiro carregamento */ 
+	/* Nï¿½o deixar ("height: 100%;") porque nï¿½o aparece as imagens no primeiro carregamento */ 
 }
 
 .shelf ul li .name {
@@ -6264,7 +6264,7 @@ display: none
 
 
 
-/* iPad deitado: até 1023 */
+/* iPad deitado: atï¿½ 1023 */
 @media (max-width: 1023px) {
 
   .nav-item.bateria-departamentos, .subnav.todos-departamentos{
@@ -8540,7 +8540,7 @@ float: left;
 	}
 }
 
-/* Correção do zoom por cima do menu */
+/* Correï¿½ï¿½o do zoom por cima do menu */
 .zoomWindow { z-index: 1 !important; }
 
 
@@ -9394,7 +9394,7 @@ float: left;
 }
 /* WIKI */
 
-/*Selecionamos para você*/
+/*Selecionamos para vocï¿½*/
 .cj table {
 	margin: 0 auto;
 }
@@ -9592,7 +9592,7 @@ float: left;
     content: "COMPRE JUNTO";
     font-size: 20px
 }
-/*Selecionamos para você*/
+/*Selecionamos para vocï¿½*/
 
 @media (min-width: 1024px) {
 	.trustvox-rate {
@@ -9762,7 +9762,7 @@ float: left;
     cursor: pointer
 }
  .moda-power-cadastro .modal-fechar span:before {
-    content: "Não gosto de descontos";
+    content: "Nï¿½o gosto de descontos";
     width: 135px;
     position: absolute;
     top: 6px;
@@ -10105,7 +10105,7 @@ float: left;
 	}
 }
 
-/* Ajuste Últimas Reviews abaixo de 1300 departamento/categoria */
+/* Ajuste ï¿½ltimas Reviews abaixo de 1300 departamento/categoria */
 @media (min-width: 1023px) and (max-width: 1300px) {
 	.ultimas-reviews .box-pai-um {
 		width: 20%;
@@ -10119,7 +10119,7 @@ float: left;
 		float: left;
 	}
 }
-/* Ajuste Últimas Reviews abaixo de 1300 departamento/categoria */
+/* Ajuste ï¿½ltimas Reviews abaixo de 1300 departamento/categoria */
 
 /* flag led-bq-3k !!!DESATIVADA!!!
 .flag .led-bq-3k {
@@ -10252,12 +10252,12 @@ float: left;
 .flags .led-bf-6k { display: none; }
 /* oculta .led-bq-3k, .led-bf-6k  pagina produto temporario */
 
-/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em Especificações Técnicas */
+/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em Especificaï¿½ï¿½es Tï¿½cnicas */
 #caracteristicas .Kit-HTML { display: none; }
 #caracteristicas .Sugestao-Variacao-HTML { display: none; }
-/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em Especificações Técnicas */
+/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em Especificaï¿½ï¿½es Tï¿½cnicas */
 
-/* sugestão de compra pagina produtos */
+/* sugestï¿½o de compra pagina produtos */
 
 .sugestao-de-temperatura {
 	width: 100%;
@@ -10267,7 +10267,7 @@ float: left;
     margin-top: 20px;
 }
 
-.sugestão-de-compra {
+.sugestï¿½o-de-compra {
     margin-top: 25px;
 }
 
@@ -10377,7 +10377,7 @@ float: left;
 	font-weight: bold;
 }
 
-/* sugestão de compra pagina produtos */
+/* sugestï¿½o de compra pagina produtos */
 
 /* corporativo energilux */
 .para-empresas {
@@ -11061,7 +11061,7 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
 }
 /* Ajustes Novos selos product-button-buy */
 
-/* Nova coleção BF/BQ */
+/* Nova colecao BF/BQ */
 .bf-6w,
 .bq-6w,
 .bf-12w,
@@ -11238,11 +11238,114 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
     }
 }
 
-/* Nova coleção BF/BQ */
+/* Nova colecao BF/BQ */
 
-/* Alterada votação */
+/* Alterada votacao */
 .tc-widget-standard-content .tc-widget-reviewcount:before {
     content: "3";
     font-size: .99em;
 }
-/* Alterada votação */
+/* Alterada votacao */
+
+/* Produtos pagina busca */
+@media (min-width: 1024px) {
+
+    .resultado-busca .only-search .shelf ul li {
+        width: 242px;
+        height: 400px!important;
+    }
+
+    .resultado-busca .shelf ul li .name {
+        clear: both;
+        padding-top: 2px;    
+    }
+
+    .resultado-busca .only-search .shelf .buy-btn-container {
+        position: absolute!important;
+        width: 95%!important;
+        bottom: 6px;
+    }
+
+    .resultado-busca .shelf ul li .price {
+        height: 62px;
+    }
+    
+    .resultado-busca .shelf ul li .out-of-stock {
+        margin-top: 13px;
+    }
+
+    .resultado-busca .only-search .shelf ul li p.name {
+        height: 52px!important;
+    }
+
+    .resultado-busca .only-search .shelf ul li .collection-image-link img {
+        float: initial;
+    }
+
+}
+
+@media (max-width: 1023px) {
+
+    .resultado-busca .only-search .shelf ul li {
+        width: 48%;
+        height: 300px!important;
+        float: left;
+        margin: 4px!important;
+        border: 1px solid #bebebe;
+    }  
+
+    .resultado-busca .only-search .shelf ul li .collection-image-link img {
+        float: inherit;
+    } 
+
+    .resultado-busca .collection-image-link img {
+        max-width: 120px;
+        height: 120px;
+    }
+
+    .resultado-busca .only-search .shelf .buy-btn-container {
+        position: absolute!important;
+        width: 95%!important;
+        bottom: 6px;
+    }
+
+    .resultado-busca .shelf ul li .out-of-stock {
+        margin-top: 43px;
+    }
+
+    .resultado-busca .only-search .shelf ul li p.name {
+        height: 52px!important;
+    }
+            
+}
+
+@media (max-width: 600px) {
+
+    .resultado-busca .only-search .shelf ul li {
+        width: 100%;
+        height: 150px!important;
+    }
+
+    .resultado-busca .only-search .shelf ul li p.name {
+        height: 44px!important;
+    }
+
+    .resultado-busca .shelf ul li .name {
+        clear: inherit
+    }
+
+    .resultado-busca .shelf ul li .out-of-stock {
+        margin-top: 8px;
+    }
+
+    .resultado-busca .colecaoa::before, .colecaob::before, .colecaoc::before {
+        background-size: contain;
+        height: 25px !important;
+    }
+
+}
+
+.resultado-busca .resultItemsWrapper .flag {
+    width: 100%;
+}
+/* Produtos pagina busca */

@@ -2709,7 +2709,6 @@ th.name-field.Descricao-HTML {
     font-size: 2rem;
     color: #555;
     font-weight: bold;
-    margin-bottom: 15px
 }
 
 .seo-text h2 {
@@ -9609,6 +9608,10 @@ float: left;
 }
 
 /* Ultimas Reviews */
+.ultimas-reviews {
+    padding-top: 20px;      
+    clear: both
+}
 
 .ultimas-reviews a:link, a:visited, a:hover, a:active {
 	text-decoration: inherit;
@@ -9676,6 +9679,15 @@ float: left;
 	color: #999;
 }
 
+@media (max-width: 1300px) and (min-width: 1080px) {
+    
+	.ultimas-reviews {
+		width: 1024px;
+        margin: 0 auto;
+	}
+
+}
+
 @media (max-width: 1023px) {
 	
 	.ultimas-reviews {
@@ -9731,7 +9743,6 @@ float: left;
 	}
 
 }
-
 /* Ultimas Reviews */
 
 /* moda-power-cadastro energilux */
@@ -10104,22 +10115,7 @@ float: left;
 		height: 25px !important;
 	}
 }
-
-/* Ajuste �ltimas Reviews abaixo de 1300 departamento/categoria */
-@media (min-width: 1023px) and (max-width: 1300px) {
-	.ultimas-reviews .box-pai-um {
-		width: 20%;
-		height: auto;
-		float: left;
-	}
-
-	.ultimas-reviews .box-pai-dois {
-		width: 80%;
-		height: auto;
-		float: left;
-	}
-}
-/* Ajuste �ltimas Reviews abaixo de 1300 departamento/categoria */
+/* Ajuste tamanho flag menos de 551 */
 
 /* flag led-bq-3k !!!DESATIVADA!!!
 .flag .led-bq-3k {
@@ -10252,12 +10248,12 @@ float: left;
 .flags .led-bf-6k { display: none; }
 /* oculta .led-bq-3k, .led-bf-6k  pagina produto temporario */
 
-/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em Especifica��es T�cnicas */
+/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em Especificacoes Tecnicas */
 #caracteristicas .Kit-HTML { display: none; }
 #caracteristicas .Sugestao-Variacao-HTML { display: none; }
-/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em Especifica��es T�cnicas */
+/* oculta .Kit-HTML e .Sugestao-Variacao-HTML em Especificacoes Tecnicas */
 
-/* sugest�o de compra pagina produtos */
+/* sugestao de compra pagina produtos */
 
 .sugestao-de-temperatura {
 	width: 100%;
@@ -10377,7 +10373,7 @@ float: left;
 	font-weight: bold;
 }
 
-/* sugest�o de compra pagina produtos */
+/* sugestao de compra pagina produtos */
 
 /* corporativo energilux */
 .para-empresas {
@@ -11014,8 +11010,6 @@ float: left;
     }
 	
 }
-
-
 /* Ajuste TRUSTEDCOMPANY */
 
 td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML { 
@@ -11349,3 +11343,210 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
     width: 100%;
 }
 /* Produtos pagina busca */
+
+/* Novo SEO Footer */
+.seo-footer {
+    clear: both;
+}
+
+.seo-footer {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #666666
+}
+
+.seo-footer h1 {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.5px
+}
+
+.seo-footer .text-1 {
+    font-size: 17px;
+    opacity: 0.6;
+    letter-spacing: -0.5px;
+    line-height: 20px;
+    padding: 20px 0 20px 0
+}
+
+.seo-footer .text-1 .destaq {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.seo-footer .left {
+    width: 490px;
+    float: left;
+    border-right: 2px solid #666666
+}
+
+.seo-footer .right {
+    width: 490px;
+    float: right
+}
+
+.blocos {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.blocos .img {
+    width: 35%;
+    height: 170px;
+    float: left
+}
+
+.blocos .img img {
+    width: 100%;
+    height: 150px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: scale(1.0);
+    -moz-transition: scale(1.0);
+    -ms-transition: scale(1.0);
+    -o-transition: scale(1.0);
+    transition: scale(1.0)
+}
+
+.blocos .img img:hover {
+    -webkit-transform: scale(0.9);
+    -moz-transition: scale(0.9);
+    -ms-transition: scale(0.9);
+    -o-transition: scale(0.9);
+    transition: scale(0.9)
+}
+
+.blocos .info {
+    width: 65%;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    color: #4C4C4C
+}
+
+.blocos .info .titulo {
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 17px;
+    letter-spacing: -0.5px;
+    font-weight: bold
+}
+
+.blocos .info .texto {
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: -0.9px;
+    line-height: 20px
+}
+
+@media (min-width: 1301px) {
+
+    .seo-footer {
+        width: 1200px
+    }
+
+    .seo-footer .left {
+        width: 590px
+    }
+
+    .seo-footer .right {
+        width: 590px
+    }
+
+    .blocos .img img {    
+        max-width: 200px;
+        max-height: 200px
+    }
+
+}
+
+@media (max-width: 1023px) {
+
+    .seo-footer {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .seo-footer .left {
+        width: 100%;
+        border: 0
+    }
+
+    .seo-footer .right {
+        width: 100%
+    }
+
+    .blocos .img {
+        width: 16%
+    }
+
+    .blocos .img img {    
+        max-width: 153px;
+        max-height: 135px
+    }
+
+    .blocos .info {
+        width: 84%
+    }
+
+}
+
+@media (max-width: 666px) {
+
+    .blocos .img {
+        width: 26%
+    }
+
+    .blocos .img img {   
+        height: auto; 
+        max-width: 153px;
+        max-height: 135px
+    }
+
+    .blocos .info {
+        width: 74%
+    }
+
+}
+/* Novo SEO Footer */
+
+/* Ajuste ultimas Reviews abaixo de 1300 departamento/categoria */
+@media (min-width: 1024px) and (max-width: 1300px) {
+
+    .catalogo .ultimas-reviews {
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .catalogo .ultimas-reviews .box-pai-um {
+        width: 20%;
+        height: auto;
+        float: left
+    }
+
+    .catalogo .ultimas-reviews .box-pai-dois {
+        width: 80%;
+        height: auto;
+        float: left
+    }
+    
+}
+/* Ajuste ultimas Reviews abaixo de 1300 departamento/categoria */
+
+/* Ocultado opcoes slide */
+@media (max-width: 1023px) {
+
+    .slider-filter .slick-dots {
+        display: none!important
+    }
+    
+}
+/* Ocultado opcoes slide */

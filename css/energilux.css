@@ -11550,3 +11550,25 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
     
 }
 /* Ocultado opcoes slide */
+
+/* Ajustes Banner home desk/mobile */
+@media (min-width: 768px) {
+
+    .slider-home-mobile .slider-home {
+        display: none
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .slider-home {
+        display: none
+    }
+
+    .slider-home-mobile .slider-home {
+        display: block
+    }
+
+}
+/* Ajustes Banner home desk/mobile */

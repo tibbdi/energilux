@@ -11572,3 +11572,267 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
 
 }
 /* Ajustes Banner home desk/mobile */
+
+/* Novo lightbox-atendimento */
+.lightbox-atendimento {
+	letter-spacing: -0.2px;
+	border: solid 2px #ffbb00;
+    width: 800px;
+    height: 505px;
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -252px;
+	padding: 0;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px
+}
+
+.lightbox-atendimento .title {
+	background: url(/arquivos/Lightbox_ENERGILUX_phone.png) no-repeat;
+	margin-top: 15px;
+	margin-left: 25px;
+	padding-left: 51px;
+	line-height: 36px;
+	font-size: 20px;
+	color: #002E3E
+}
+
+.lightbox-atendimento .btn-fechar {
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: url(/arquivos/Lightbox_ENERGILUX_close.png) no-repeat;  
+    cursor: pointer
+}
+
+.lightbox-atendimento .box-center {
+	width: 775px;
+	margin: 15px auto
+}
+
+.lightbox-atendimento .box-left {
+	width: 400px;
+	height: 425px;
+	float: left;
+	border: solid 1px #5F2D84;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px
+}
+
+.lightbox-atendimento .box-left p {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: #002E3E;
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+
+.lightbox-atendimento .box-left ul li {
+	width: 100%;
+	position: relative;
+	overflow: hidden
+}
+
+.lightbox-atendimento .box-left ul li.grey {
+	background: #E6E6E6
+}
+
+.lightbox-atendimento .box-left ul li .uf {
+	width: 54px;
+	float: left;
+	color: #002E3E;
+	font-weight: bold;
+	text-align: center;
+  	position: absolute;
+	top: 50%;
+	transform: translateY(-50%)
+}
+
+.lightbox-atendimento .box-left ul li .info {
+	width: 344px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	padding-right: 10px;
+	float: right;
+	font-size: 14px
+}
+
+.lightbox-atendimento .box-left ul li .info .local {
+	float: left;
+	color: #002E3E
+}
+
+.lightbox-atendimento .box-left ul li .info .phone {
+	float: right;
+	font-weight: bold;
+	color: #B52385
+}
+
+.lightbox-atendimento .box-left p.local {
+	clear: both;
+	padding-bottom: 0px
+}
+
+.lightbox-atendimento .box-left p.phone {
+	font-size: 47px;
+	color: #B52385
+}
+
+.lightbox-atendimento .box-right {
+	width:  350px;
+	height: 425px;
+	float: right;
+}
+
+.lightbox-atendimento .box-right .liguenos {
+	width:  350px;
+	height: 315px;
+	border: solid 1px #5F2D84;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px
+}
+
+.lightbox-atendimento .box-right .liguenos .liguenos-title {
+	width: 160px;
+	height: 20px;
+	margin: -12px auto;
+	background-color: #ffffff;
+	color: #5F2D84;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center
+}
+
+.lightbox-atendimento .box-right .liguenos p {
+	width: 235px;
+	margin: 30px auto 25px auto;
+    text-align: center;
+    font-size: 13px;
+	color: #999999
+}
+
+.lightbox-atendimento .box-right .liguenos form {
+	width: 260px;
+	margin: 0 auto;
+	font-size: 14px
+}
+
+.lightbox-atendimento .box-right .liguenos form label .label-title {
+	width: 60px;
+	height: 30px;
+	float: left;
+	padding-right: 5px;
+	line-height: 30px;
+	color: #999999;
+    font-size: 13px;
+	text-align: right
+}
+
+.lightbox-atendimento .box-right .liguenos form input {
+	width: 200px;
+	height: 30px;
+	float: left;
+	margin-bottom: 30px;
+	outline: none;
+	color: #B52385;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #B52385;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px
+}
+
+.lightbox-atendimento .box-right .liguenos form ::-webkit-input-placeholder {
+	color: #B52385
+}
+
+.lightbox-atendimento .box-right .liguenos form ::-moz-placeholder {
+	color: #B52385
+}
+
+.lightbox-atendimento .box-right .liguenos form :-ms-input-placeholder { 
+	color: #B52385
+}
+
+.lightbox-atendimento .box-right .liguenos form :-moz-placeholder {
+	color: #B52385
+}
+
+.lightbox-atendimento .box-right .liguenos form input[type="submit"] {
+	width: 190px;
+	height: 35px;
+    margin-left: 35px;
+	background: -webkit-linear-gradient(to bottom, #B52385 0, #921D6B 100%);
+	background: -moz-linear-gradient(to bottom, #B52385 0, #921D6B 100%);
+	background: -ms-linear-gradient(to bottom, #B52385 0, #921D6B 100%);
+	background: -o-linear-gradient(to bottom, #B52385 0, #921D6B 100%);
+	background: linear-gradient(to bottom, #B52385 0, #921D6B 100%);
+	color: #FFFFFF;
+	font-weight: bold
+}
+
+.lightbox-atendimento .box-right .liguenos form input[type="submit"]:hover {
+	background: -webkit-linear-gradient(to bottom, #921D6B 0, #B52385 100%);
+	background: -moz-linear-gradient(to bottom, #921D6B 0, #B52385 100%);
+	background: -ms-linear-gradient(to bottom, #921D6B 0, #B52385 100%);
+	background: -o-linear-gradient(to bottom, #921D6B 0, #B52385 100%);
+	background: linear-gradient(to bottom, #921D6B 0, #B52385 100%)
+}
+
+.lightbox-atendimento .box-right .liguenos form input[type="submit"]:active {
+	background: -webkit-linear-gradient(to bottom, #B52385 0, #921D6B 100%);
+	background: -moz-linear-gradient(to bottom, #B52385 0, #921D6B 100%);
+	background: -ms-linear-gradient(to bottom, #B52385 0, #921D6B 100%);
+	background: -o-linear-gradient(to bottom, #B52385 0, #921D6B 100%);
+	background: linear-gradient(to bottom, #B52385 0, #921D6B 100%);
+	border-bottom: 2px solid #4A0F37
+}
+
+.lightbox-atendimento .box-right .funcionamento {
+	width:  350px;
+	height: 100px;
+	margin-top: 10px;
+	border: solid 1px #5F2D84;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 16px;
+	color: #002E3E
+}
+
+.lightbox-atendimento .box-right .funcionamento .funcionamento-title {
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px
+}
+
+.lightbox-atendimento .box-right .funcionamento .de {
+	font-weight: bold;
+	padding-bottom: 10px
+}
+
+.lightbox-atendimento .box-right .funcionamento span {
+	color: #B52385
+}
+/* Novo lightbox-atendimento */

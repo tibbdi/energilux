@@ -11836,3 +11836,29 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
 	color: #B52385
 }
 /* Novo lightbox-atendimento */
+
+/* desc-banner-img */
+@media (min-width: 1023px) {
+
+    .desc-banner-img-desk {
+        display: block
+    }
+
+    .desc-banner-img-mobile {
+        display: none
+    }
+    
+}
+
+@media (max-width: 1023px) {
+
+    .desc-banner-img-desk {
+        display: none
+    }
+
+    .desc-banner-img-mobile {
+        display: block
+    }
+
+}
+/* desc-banner-img */

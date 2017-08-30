@@ -1,4 +1,4 @@
-﻿/**/@-ms-keyframes upToDown {
+@-ms-keyframes upToDown {
     from {
         margin-top: -130px
     }
@@ -11862,3 +11862,96 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
 
 }
 /* desc-banner-img */
+
+/* Banner home mosaico */
+@media (max-width: 1281px) {
+    
+        .banner-mosaico {
+            display: none
+        }
+    
+}
+
+.banner-mosaico {
+    width: 1260px;
+    height: 668px;
+    margin: 21px auto
+}
+
+.banner-mosaico .box-1 {
+    width: 518px;
+    float: left
+}
+
+.banner-mosaico .box-2 {
+    width: 742px;
+    float: right
+}
+
+.banner-mosaico ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none
+}
+
+.banner-mosaico ul li.banner-1 {
+    padding: 0 0 24px 0
+}
+
+.banner-mosaico ul li.banner-2 {
+    padding: 0 0 0 0
+}
+
+.banner-mosaico ul li.banner-3 {
+    padding: 0 28px 24px 0;
+    float: left
+}
+
+.banner-mosaico ul li.banner-4 {
+    padding: 0 0 24px 0;
+    float: right
+}
+
+.banner-mosaico ul li.banner-5 {
+    padding: 0 0 0 0
+}
+
+.banner-mosaico img {
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.banner-mosaico img:hover {
+    opacity: 0.8;
+}
+/* Banner home mosaico */
+
+
+/* Selos rodape mais pra esquerda */
+@media (max-width: 1610px) {
+
+    .page-footer .vendors .list {
+        padding-right: 80px
+    }
+
+}
+
+@media (max-width: 1500px) {
+
+    .page-footer .vendors .list {
+        padding-right: 120px
+    }
+
+}
+
+@media (max-width: 1400px) {
+
+    .page-footer .vendors .list {
+        padding-right: 190px
+    }
+
+}
+/* Selos rodape mais pra esquerda */

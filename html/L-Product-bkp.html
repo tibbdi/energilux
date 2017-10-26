@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html class="no-js" lang="pt-br" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
 
     <head>
@@ -138,12 +138,14 @@
                                             
                                             <!--descricao curta ale-->
                                             <div class="shortDescription">
-                                            <div class="specifications2">
-                                                <ul>
-                                                    <vtex.cmc:productDescriptionShort />
-                                                </ul>      
-                                            </div>
-                                            
+                                                <div class="specifications2">
+                                                    <ul>
+                                                        <!--<vtex.cmc:productDescriptionShort />-->
+                                                        <li class="li-push-description-top">
+                                                            <div class="push-description-top"></div>
+                                                        </li>
+                                                    </ul>      
+                                                </div>
                                             </div>
                                             <!--descricao curta ale-->
                                             
@@ -218,7 +220,8 @@
                                                 <vtex.cmc:BuyButton/>
 
                                                 <div class="selos-product-button-buy">
-
+                                                    
+                                                    <!-- selos
                                                     <div style="width: 100px; float: left;" class="padding-l-product-button-buy">
                                                         <a href="http://secure.vtex.com/?an=Energilux.com.br" target="_blank">
                                                             <img src="http://io.vtex.com.br/front-libs/assets/pci/vtex-pci-100.png" width="100" height="73" align="right"></img>
@@ -236,6 +239,7 @@
                                                             <script src="https://d3643s33l1rfut.cloudfront.net/js/widget?w=BQYHDBEcXkJWQlRURlRSW0BeXEA"></script>
                                                         </div>
                                                     </div>
+                                                    -->
                                                 
                                                 </div>
 
@@ -355,13 +359,17 @@
                                                 <div class="tabs-content" data-content-tabs="caracteristicas-tecnicas">
                                                     <div class="page-center"> 
                                                         
-                                                        <!-- inicio da descrição Vtex -->
-                                                        <vtex.cmc:ProductDescription/>
-                                                        <!-- fim da descrição Vtex -->
-                                                       
+                                                        <a id="vejamais"></a>
+                                                        
+                                                        <div class="description-bottom">
+                                                            <!-- inicio da descrição Vtex -->
+                                                            <vtex.cmc:ProductDescription/>
+                                                            <!-- fim da descrição Vtex -->
+                                                        </div>
                                                         
                                                         <!-- desrição dos campos de produto, cadastrados no produto -->
                                                         <!-- <div class="maintit">Especificações Técnicas</div> -->
+                                                        <div class="maintit titulo-esp-tec">Especificações Técnicas</div>
                                                         <vtex.cmc:productSpecification/>
                                                         <!-- teste alexandre -->
                                                         

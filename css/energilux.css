@@ -12607,7 +12607,19 @@ body.home .shelf ul .slick-next{
     min-height: 32px
 }
 
-.push-description-top .desc-banner-img-desk, .desc-banner-img-mobile {
+.push-description-top .desc-banner-img-desk {
+	display: none 
+}
+
+.push-description-top .desc-banner-img-mobile {
+	display: none 
+}
+
+.push-description-top .desc-banner-img {
+	display: none 
+}
+
+.push-description-top img {
 	display: none 
 }
 
@@ -12635,4 +12647,17 @@ body.home .shelf ul .slick-next{
     color: #3593d9;
     text-decoration: underline
 }
+
+.li-push-description-top {
+    display: none
+}
 /* push-description-top 14 palavras*/
+
+/*Ajuste colecao p*/
+.product-image-container .colecaoa::before,
+.colecaob::before,
+.colecaoc::before {
+    top: 8px;
+    left: -38px
+}
+/*Ajuste colecao p*/

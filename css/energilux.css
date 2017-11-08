@@ -2403,7 +2403,7 @@ th.name-field.Descricao-HTML {
 .colecaoc::before {
     background-image: url("/arquivos/colecaoc.png")
 }
-@media (max-width: 600px) {
+@media (max-width: 759px) {
     .colecaoa::before,
     .colecaob::before,
     .colecaoc::before {
@@ -12749,7 +12749,15 @@ body.home .shelf ul .slick-next{
     }
 }
 
-.product-image-container .promo24::before, .promo29::before, .promo39::before {
+.product-image-container .promo24::before {
+    display: none
+}
+
+.product-image-container .promo29::before {
+    display: none
+}
+
+.product-image-container .promo39::before {
     display: none
 }
 /* colecao promo */

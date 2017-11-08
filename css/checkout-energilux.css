@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Signika:700,400,600);
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Signika:700,400,600);
 @-ms-keyframes upToDown
 {
 	from
@@ -1611,7 +1611,7 @@ input[type="color"],
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url("http://www.bbbaterias.com.br/arquivos/modal-desconto-fechar-energilux.jpg");
+    background-image: url("https://www.bbbaterias.com.br/arquivos/modal-desconto-fechar-energilux.jpg");
     cursor: pointer
 }
 .modal-desconto .modal-cima {
@@ -1647,7 +1647,7 @@ input[type="color"],
     width: 100%;
     height: 143px;
     float: left;
-    background-image: url("http://www.bbbaterias.com.br/arquivos/modal-desconto-bg-energilux.jpg?v=1");
+    background-image: url("https://www.bbbaterias.com.br/arquivos/modal-desconto-bg-energilux.jpg?v=1");
     background-repeat: no-repeat;
 }
 .modal-desconto .moda-baixo p {
@@ -1844,7 +1844,7 @@ ul.cr-list {
 .checkout-rodape .cr-vendors .cr-list .cr-list-item.cr-bbdi a {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/mini-logo_grupo-bbdi.png);
+    background-image: url(https://bbbaterias.vteximg.com.br/arquivos/mini-logo_grupo-bbdi.png);
     background-position: 0 6px;
     height: 31px;
     width: 106px;
@@ -1853,7 +1853,7 @@ ul.cr-list {
 .checkout-rodape .cr-vendors .cr-list .cr-list-item.cr-vtex a {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
+    background-image: url(https://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
     background-position: 0 -2201px;
     height: 19px;
     width: 76px;
@@ -1919,7 +1919,7 @@ ul.cr-list {
 .checkout-rodape .cr-payment-security .cr-payment .cr-list .cr-list-item.cr-visa {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
+    background-image: url(https://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
     background-position: 0 -2790px;
     height: 30px;
     width: 44px;
@@ -1928,7 +1928,7 @@ ul.cr-list {
 .checkout-rodape .cr-payment-security .cr-payment .cr-list .cr-list-item.cr-master-card {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
+    background-image: url(https://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
     background-position: 0 -2640px;
     height: 30px;
     width: 44px;
@@ -1937,7 +1937,7 @@ ul.cr-list {
 .checkout-rodape .cr-payment-security .cr-payment .cr-list .cr-list-item.cr-hiper {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
+    background-image: url(https://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
     background-position: 0 -2540px;
     height: 30px;
     width: 44px;
@@ -1946,7 +1946,7 @@ ul.cr-list {
 .checkout-rodape .cr-payment-security .cr-payment .cr-list .cr-list-item.cr-cabal {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
+    background-image: url(https://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
     background-position: 0 -2390px;
     height: 30px;
     width: 44px;
@@ -1955,7 +1955,7 @@ ul.cr-list {
 .checkout-rodape .cr-payment-security .cr-payment .cr-list .cr-list-item.cr-sincred {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
+    background-image: url(https://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
     background-position: 0 -2690px;
     height: 30px;
     width: 44px;
@@ -1964,7 +1964,7 @@ ul.cr-list {
 .checkout-rodape .cr-payment-security .cr-payment .cr-list .cr-list-item.cr-avista {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
+    background-image: url(https://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
     background-position: 0 -2290px;
     height: 30px;
     width: 44px;
@@ -1973,7 +1973,7 @@ ul.cr-list {
 .checkout-rodape .cr-payment-security .cr-payment .cr-list .cr-list-item.cr-diners {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
+    background-image: url(https://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
     background-position: 0 -2440px;
     height: 30px;
     width: 44px;
@@ -1982,7 +1982,7 @@ ul.cr-list {
 .checkout-rodape .cr-payment-security .cr-payment .cr-list .cr-list-item.cr-hipercard {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
+    background-image: url(https://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
     background-position: 0 -2590px;
     height: 30px;
     width: 44px;
@@ -1991,7 +1991,7 @@ ul.cr-list {
 .checkout-rodape .cr-payment-security .cr-payment .cr-list .cr-list-item.cr-boleto {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(http://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
+    background-image: url(https://bbbaterias.vteximg.com.br/arquivos/icons-energilux-s7c190d4b23.png);
     background-position: 0 -2340px;
     height: 30px;
     width: 44px;

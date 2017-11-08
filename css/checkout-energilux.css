@@ -2078,31 +2078,63 @@ ul.cr-list {
 
 /* Modificações botões checkout */
 .clearfix.pull-right.cart-links.cart-links-bottom.hide .btn {
-    background: linear-gradient(to bottom, #ffbb00 0, #ffc935 100%)!important;
-    border: 1px solid #bfa522!important;
-    border-radius: 5px!important;
+	background-color: #ffd500!important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd500), color-stop(33%, #fff200), color-stop(67%, #fff200), to(#ffd500))!important;
+    background-image: -webkit-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    background-image: -o-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    background-image: linear-gradient(180deg, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    -webkit-background-size: 100% 300%!important;
+    background-size: 100% 300%!important;
+    background-position: 0 100%!important;
+	border-width: 1px 1px 2px!important;
+    border-style: solid!important;
+    border-color: #f2ca00!important;
+    border-radius: 4px!important;
     color: #555!important;
     font-size: 16px!important;
     font-weight: 700!important;
+	outline: none;
 }
 
 .clearfix.pull-right.cart-links.cart-links-bottom.hide .btn:hover {
-    background: linear-gradient(to bottom, #ffe500 0, #fff22d 100%)!important;
-	border: 1px solid #f2ca00!important;
+    background-position: 0 50%!important;
+}
+
+.clearfix.pull-right.cart-links.cart-links-bottom.hide .btn:active {
+	box-shadow: none!important;
+    background-position: 0 0%!important;
 }
 
 .payment-submit-wrap button, button.submit.btn.btn-success.btn-large.btn-block {
-    background: linear-gradient(to bottom, #ffbb00 0, #ffc935 100%)!important;
-    border: 1px solid #bfa522!important;
-    border-radius: 5px!important;
+	background-color: #ffd500!important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd500), color-stop(33%, #fff200), color-stop(67%, #fff200), to(#ffd500))!important;
+    background-image: -webkit-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    background-image: -o-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    background-image: linear-gradient(180deg, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    -webkit-background-size: 100% 300%!important;
+    background-size: 100% 300%!important;
+    background-position: 0 100%!important;
+	border-width: 1px 1px 2px!important;
+    border-style: solid!important;
+    border-color: #f2ca00!important;
+    border-radius: 4px!important;
     color: #555!important;
     font-size: 16px!important;
     font-weight: 700!important;
+	outline: none;
+}
+
+.payment-submit-wrap button, button.submit.btn.btn-success.btn-large.btn-block span {
+	color: #555!important
 }
 
 .payment-submit-wrap button:hover, button.submit.btn.btn-success.btn-large.btn-block:hover {
-    background: linear-gradient(to bottom, #ffe500 0, #fff22d 100%)!important;
-	border: 1px solid #f2ca00!important;
+    background-position: 0 50%!important;
+}
+
+.payment-submit-wrap button:active, button.submit.btn.btn-success.btn-large.btn-block:active {
+	box-shadow: none!important;
+    background-position: 0 0%!important;
 }
 
 #payment-data-submit i.icon-lock {
@@ -2124,18 +2156,32 @@ ul.cr-list {
 }
 
 a.btn-continue-shop.btn.pull-right {
-    background: linear-gradient(to bottom, #ffbb00 0, #ffc935 100%)!important;
-    border: 1px solid #bfa522!important;
-    border-radius: 5px!important;
+	background-color: #ffd500!important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd500), color-stop(33%, #fff200), color-stop(67%, #fff200), to(#ffd500))!important;
+    background-image: -webkit-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    background-image: -o-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    background-image: linear-gradient(180deg, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    -webkit-background-size: 100% 300%!important;
+    background-size: 100% 300%!important;
+    background-position: 0 100%!important;
+	border-width: 1px 1px 2px!important;
+    border-style: solid!important;
+    border-color: #f2ca00!important;
+    border-radius: 4px!important;
     color: #555!important;
     font-size: 16px!important;
     font-weight: 700!important;
-    padding: 10px!important;
+	padding: 10px!important;
+	outline: none;
 }
 
 a.btn-continue-shop.btn.pull-right:hover {
-    background: linear-gradient(to bottom, #ffe500 0, #fff22d 100%)!important;
-	border: 1px solid #f2ca00!important;
+    background-position: 0 50%!important;
+}
+
+a.btn-continue-shop.btn.pull-right:active {
+	box-shadow: none!important;
+    background-position: 0 0%!important;
 }
 
 .orderplaced-alert-content.alert.alert-success.span12 .btn-success:hover {
@@ -2148,17 +2194,31 @@ a.bank-invoice-print-url.btn.btn-success.btn-large:hover span {
 }
 
 .cart-template.full-cart.span12.active a.btn.btn-large.btn-success.link-choose-products {
-    background: linear-gradient(to bottom, #ffbb00 0, #ffc935 100%)!important;
-    border: 1px solid #bfa522!important;	
-    border-radius: 5px!important;
+	background-color: #ffd500!important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd500), color-stop(33%, #fff200), color-stop(67%, #fff200), to(#ffd500))!important;
+    background-image: -webkit-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    background-image: -o-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    background-image: linear-gradient(180deg, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    -webkit-background-size: 100% 300%!important;
+    background-size: 100% 300%!important;
+    background-position: 0 100%!important;
+	border-width: 1px 1px 2px!important;
+    border-style: solid!important;
+    border-color: #f2ca00!important;
+    border-radius: 4px!important;
     color: #555!important;
     font-size: 16px!important;
     font-weight: 700!important;
+	outline: none;
 }
 
 .cart-template.full-cart.span12.active a.btn.btn-large.btn-success.link-choose-products:hover {
-    background: linear-gradient(to bottom, #ffe500 0, #fff22d 100%)!important;
-	border: 1px solid #f2ca00!important;
+    background-position: 0 50%!important;
+}
+
+.cart-template.full-cart.span12.active a.btn.btn-large.btn-success.link-choose-products:active {
+	box-shadow: none!important;
+    background-position: 0 0%!important;
 }
 /* Modificações botões checkout */
 

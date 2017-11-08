@@ -3346,7 +3346,7 @@ ul.Marca+.veja-mais {
     position: absolute;
     width: 170px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 4px;
     margin: 30px auto;
     padding: 13px 10px 13px 55px;
     font-size: 22px;
@@ -3355,19 +3355,32 @@ ul.Marca+.veja-mais {
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-    font-family: "Signika",sans-serif;
-    -moz-transition: all 350ms ease;
-    -o-transition: all 350ms ease;
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease
+    font-family: "Signika",sans-serif
 }
-
 
 .product-info-container .product-checkout .buy-button {
-    border: 1px solid #f2ca00;
-    background-image: linear-gradient(to bottom, #ffe500 0, #fff22d 100%)
+    border-width: 1px 1px 2px;
+    border-style: solid;
+    border-color: #f2ca00;
+    background-color: #ffd500;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd500), color-stop(33%, #fff200), color-stop(67%, #fff200), to(#ffd500));
+    background-image: -webkit-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%);
+    background-image: -o-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%);
+    background-image: linear-gradient(180deg, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%);
+    -webkit-background-size: 100% 300%;
+    background-size: 100% 300%;
+    background-position: 0 100%
 }
 
+.product-info-container .product-checkout .buy-button:hover {
+    background-position: 0 50%
+}
+
+.product-info-container .product-checkout .buy-button:active {
+    background-position: 0 0%;
+    border-width: 1px 1px 1px;
+    margin-top: 25px
+}
 
 .btn-product-interaction,
 .product-info-container .product-checkout .notifyme .notifyme-button-ok {
@@ -4105,7 +4118,7 @@ ul.Marca+.veja-mais {
 .qvvt .slick-list {
     overflow: hidden;
     width: 100%;
-    height: 350px!important;
+    height: 348px!important;
 }
 
 .qvvt li {
@@ -7958,54 +7971,63 @@ display: none
   /*  top: 35px;
     left: 30px;*/
 }
+
 .shelf .buy-btn, .shelf .notifyme .notifyme-btn-ok {
-    /*position: absolute;*/
     height: 60px;
     background: #217f12;
     border-radius: 5px;
     margin: 30px auto;
     text-decoration: none;
     font-family: "Signika",sans-serif;
-    border: none;
-    -moz-transition: all 350ms ease;
-    -o-transition: all 350ms ease;
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease;
+    border: none
 }
+
 .shelf .buy-btn-container {
     width: 95%;
     margin: 0 auto;
     margin-bottom: 4px;
 }
 
-
-
 .buy-btn {
-    /*background-color: #ffe942!important;*/
-    background-image: linear-gradient(to bottom, #ffe500 0, #fff22d 100%)!important;
-    border: 1px solid #f2ca00;
+    border-width: 1px 1px 2px!important;
+    border-style: solid!important;
+    border-color: #f2ca00!important;
+    background-color: #ffd500!important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd500), color-stop(33%, #fff200), color-stop(67%, #fff200), to(#ffd500))!important;
+    background-image: -webkit-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    background-image: -o-linear-gradient(top, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    background-image: linear-gradient(180deg, #ffd500 0, #fff200 33%, #fff200 67%, #ffd500 100%)!important;
+    -webkit-background-size: 100% 300%!important;
+    background-size: 100% 300%!important;
+    background-position: 0 100%!important;
     text-align: center!important;
     color: #555!important;
     font-size: 16px!important;
     text-transform: none!important;
     font-weight: 700!important;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%!important;
     height: auto!important;
-    text-decoration: none
+    text-decoration: none;
+    cursor: pointer;
+	outline: none
 }
 
 
 .buy-btn-container:hover .buy-btn,
 .product-info-container .product-checkout .buy-button:hover {
-    background-color: #fff22d!important
-
+    background-position: 0 50%!important
 }
 
+.buy-btn-container:active .buy-btn,
+.product-info-container .product-checkout .buy-button:active {
+    background-position: 0 0%!important;
+	border-width: 1px 1px 1px!important
+}
 
 .shelf .buy-btn:before {
     /*left: 50px;
@@ -8201,6 +8223,9 @@ display: none
         position: absolute;
         width: 100%;
         top: 55px;
+    }
+    .product-info-container .product-checkout .buy-button:active {
+        margin-top: 1px!important;
     }
     .product-info-container .product-checkout .product-button-buy  {
         margin: 0px;

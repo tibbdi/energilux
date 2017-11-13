@@ -8669,7 +8669,7 @@ float: left;
         height: 50px;
         position: relative;
         float: left;
-        padding: 0px 64px 0px 30px;
+        padding: 0px 50px 0px 30px;
         line-height: 50px;
         -webkit-transition: background 400ms ease-in-out;
         -moz-transition: background 400ms ease-in-out;
@@ -8747,19 +8747,19 @@ float: left;
     .nv_menu .sub_menu_3 {
         width: 700px;
         height: 300px;
-        left: -130px;
+        left: -172px;
     }
 
     .nv_menu .sub_menu_4 {
         width: 980px;
         height: 300px;
-        left: -588px;
+        left: -616px;
     }
 
     .nv_menu .sub_menu_5 {
         width: 980px;
         height: 300px;
-        left: -788px;
+        left: -802px;
     }
 
     .nv_menu .sub_menu_6 {

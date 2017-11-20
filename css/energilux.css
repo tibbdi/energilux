@@ -8891,49 +8891,56 @@ float: left;
     .nv_menu li ul .sub_menu_imagem #img-sm-2-1 {
         width: 418px;
         height: 260px;
-        background: url(/arquivos/img-sub-menu-2.jpg) no-repeat -1px -26px;
+        background: url(/arquivos/img-sub-menu-2.jpg?v=1) no-repeat -1px -26px;
         display: none;
     }
 
     .nv_menu li ul .sub_menu_imagem #img-sm-2-2 {
         width: 418px;
         height: 260px;
-        background: url(/arquivos/img-sub-menu-2.jpg) no-repeat -1px -326px;
+        background: url(/arquivos/img-sub-menu-2.jpg?v=1) no-repeat -1px -312px;
         display: none;
     }
 
     .nv_menu li ul .sub_menu_imagem #img-sm-2-3 {
         width: 418px;
         height: 260px;
-        background: url(/arquivos/img-sub-menu-2.jpg) no-repeat -1px -608px;
+        background: url(/arquivos/img-sub-menu-2.jpg?v=1) no-repeat -1px -598px;
         display: none;
     }
 
     .nv_menu li ul .sub_menu_imagem #img-sm-2-4 {
         width: 418px;
         height: 260px;
-        background: url(/arquivos/img-sub-menu-2.jpg) no-repeat -1px -892px;
+        background: url(/arquivos/img-sub-menu-2.jpg?v=1) no-repeat -1px -884px;
         display: none;
     }
 
     .nv_menu li ul .sub_menu_imagem #img-sm-2-5 {
         width: 418px;
         height: 260px;
-        background: url(/arquivos/img-sub-menu-2.jpg) no-repeat -1px -1179px;
+        background: url(/arquivos/img-sub-menu-2.jpg?v=1) no-repeat -1px -1170px;
         display: none;
     }
 
     .nv_menu li ul .sub_menu_imagem #img-sm-2-6 {
         width: 418px;
         height: 260px;
-        background: url(/arquivos/img-sub-menu-2.jpg) no-repeat -1px -1471px;
+        background: url(/arquivos/img-sub-menu-2.jpg?v=1) no-repeat -1px -1457px;
         display: none;
     }
 
     .nv_menu li ul .sub_menu_imagem #img-sm-2-7 {
         width: 418px;
         height: 260px;
-        background: url(/arquivos/img-sub-menu-2.jpg) no-repeat -1px -1775px;
+        background: url(/arquivos/img-sub-menu-2.jpg?v=1) no-repeat -1px -1743px;
+        display: none;
+    }
+
+    .nv_menu li ul .sub_menu_imagem #img-sm-2-8 {
+        width: 418px;
+        height: 260px;
+        background: url(/arquivos/img-sub-menu-2.jpg?v=1) no-repeat -1px -2029px;
         display: none;
     }
 
@@ -11170,7 +11177,7 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
 .bf-36w::before,
 .bq-36w::before {
     position: absolute;
-    top: 93px;
+    top: 133px;
     left: -4px;
     content: "";
     display: inline-block;
@@ -12647,7 +12654,7 @@ body.home .shelf ul .slick-next{
 
 .stylepdf a:hover {
     color: #3593d9;
-    text-decoration: none
+    text-decoration: underline
 }
 
 .stylepdf a:active {

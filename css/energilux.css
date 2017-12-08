@@ -1003,7 +1003,7 @@ ul.ui-autocomplete li.ui-menu-item a.ui-corner-all img {
 
 .telesales .link,.cart {
     background: #4c4c4c;
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodâ€¦EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodÃ¢â‚¬Â¦EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
     background: -moz-linear-gradient(top, #4c4c4c 0%, #282828 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4c4c4c), color-stop(100%, #282828));
     background: -webkit-linear-gradient(top, #4c4c4c 0%, #282828 100%);
@@ -1948,26 +1948,29 @@ ul.ui-autocomplete li.ui-menu-item a.ui-corner-all img {
 
 .shelf ul li .collection-image-link img {
     display: inline-block;
-    /* N�o deixar ("height: 100%;") porque n�o aparece as imagens no primeiro carregamento */ 
+    /* Nï¿½o deixar ("height: 100%;") porque nï¿½o aparece as imagens no primeiro carregamento */ 
 }
 
 .shelf ul li .name {
     display: block;
-    height: 52px;
+    height: 56px;
     text-align: center;
     overflow: hidden;
 }
 
 .shelf ul li .name a {
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
     font-size: 14px;
     font-size: 0.875rem;
     margin-bottom: 10px;
     display: block;
     color: #555;
-    line-height: 1.1em
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    line-height: 1.2em
 }
+
 
 .shelf ul li.last {
     margin-right: 0
@@ -1982,8 +1985,9 @@ ul.ui-autocomplete li.ui-menu-item a.ui-corner-all img {
 }
 
 .shelf ul li .old-price {
-    color: #aeaeae;
-    text-decoration: line-through
+    color: #808080;
+    text-decoration: line-through;
+    font-size: 17px
 }
 
 th.name-field.Descricao-HTML {
@@ -1991,11 +1995,10 @@ th.name-field.Descricao-HTML {
 }
 
 .shelf ul li .best-price {
-    font-size: 25px;
-    font-size: 1.5625rem;
+    font-size: 27px;
     font-weight: bold;
     text-decoration: none;
-    color: #35d51e
+    color: #f2ca00
 }
 
 .shelf ul li .installment {
@@ -6288,7 +6291,7 @@ display: none
 
 
 
-/* iPad deitado: at� 1023 */
+/* iPad deitado: atï¿½ 1023 */
 @media (max-width: 1023px) {
     
   .nav-item.bateria-departamentos, .subnav.todos-departamentos{
@@ -7779,11 +7782,9 @@ display: none
 /*N1 - 04/07/2016 05/07/2016*/
 
 .product-content-header .product-name .fn.productName{
-    color: #085ebd;
+	text-transform: uppercase;
 }
-/*.product-info-container .product-checkout .buy-button {
-    left: 0px!important;
-}*/
+
 .product-info-container .product-checkout .buy-button:before {
     left: 20px;
     top: 18px;
@@ -7919,7 +7920,7 @@ display: none
 }
 
 .shelf ul li .price{
-    margin-top: 10px;
+    margin-top: 3px!important;
 }
 
 .shelf li, .shelf .name a,
@@ -7939,8 +7940,8 @@ display: none
 }
 
 .shelf .name a {
-    font-size: 16px!important;
-    color: #3551c1!important;
+    font-size: 15px!important;
+    color: #000!important;
 }
 
 .shelf ul li .installment {
@@ -8419,7 +8420,7 @@ display: none
 }
 
 .only-search .shelf ul li .evaluation {
-    margin-top: 6px
+    margin-top: 3px
 }
 
 .floatleft .collection-description {
@@ -8598,7 +8599,7 @@ float: left;
     }
 }
 
-/* Corre��o do zoom por cima do menu */
+/* Correï¿½ï¿½o do zoom por cima do menu */
 .zoomWindow { z-index: 1 !important; }
 
 
@@ -8739,9 +8740,9 @@ float: left;
     }
 
     .nv_menu .sub_menu_2 {
-        width: 700px;
+        width: 980px;
         height: 300px;
-        left: 0px;
+        left: -223px;
     }
 
     .nv_menu .sub_menu_3 {
@@ -9480,7 +9481,7 @@ float: left;
 }
 /* WIKI */
 
-/*Selecionamos para voc�*/
+/*Selecionamos para vocï¿½*/
 .cj table {
     margin: 0 auto;
 }
@@ -9678,7 +9679,7 @@ float: left;
     content: "COMPRE JUNTO";
     font-size: 20px
 }
-/*Selecionamos para voc�*/
+/*Selecionamos para vocï¿½*/
 
 @media (min-width: 1024px) {
     .trustvox-rate {
@@ -9860,7 +9861,7 @@ float: left;
     cursor: pointer
 }
  .moda-power-cadastro .modal-fechar span:before {
-    content: "Não gosto de descontos";
+    content: "NÃ£o gosto de descontos";
     width: 135px;
     position: absolute;
     top: 6px;
@@ -10350,7 +10351,7 @@ float: left;
     margin-top: 20px;
 }
 
-.sugest�o-de-compra {
+.sugestï¿½o-de-compra {
     margin-top: 25px;
 }
 
@@ -11681,7 +11682,7 @@ td.value-field.Kit-HTML, td.value-field.Sugestao-Variacao-HTML {
     }
 
     .resultado-busca .only-search .shelf ul li p.name {
-        height: 52px!important;
+        height: 55px!important;
     }
 
     .resultado-busca .only-search .shelf ul li .collection-image-link img {
@@ -12591,8 +12592,8 @@ body.home .shelf ul .slick-next{
         border-bottom: none !important;
     }
 }
-/* Estilo PDF */
 
+/* Estilo PDF */
 .stylepdf h2 {
     font-size: 20px;
     font-weight: bold;
@@ -12612,7 +12613,7 @@ body.home .shelf ul .slick-next{
 }
 
 .stylepdf p {
-    font-size: 17px!important;
+    font-size: 15px!important;
     color: #000000!important;
     line-height: 20px!important;
     margin-top: 20px!important;
@@ -12639,7 +12640,7 @@ body.home .shelf ul .slick-next{
 .stylepdf a:link {
     color: #0d6ea1;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
     -webkit-transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
     -o-transition: color .2s ease-in-out;

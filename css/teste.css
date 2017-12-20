@@ -1,0 +1,363 @@
+.shelf-new {
+	width: 100%;
+}
+
+.banner-shelf {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #F5F5F5;
+    width: 220px;
+    height: 438px;
+    color: #002E40;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 21px;
+    line-height: 438px;
+    font-weight: bold;
+    text-decoration: blink;
+    letter-spacing: -0.9px;
+}
+
+.prateleira-nova-home {
+    display: none;
+}
+
+.prateleira-nova-home-left .banner-shelf {
+    float: left;
+}
+
+.prateleira-nova-home-right .banner-shelf {
+    float: right;
+}
+
+.banner-shelf .line {
+    position: absolute;
+    width: 110px;
+    height: 3px;
+    margin-top: -207px;
+    background: #002E40;
+}
+
+.prateleira-nova-home-left .line {
+	margin-left: 110px;
+}
+
+.prateleira-nova-home-right .line {
+	margin-right: 110px;
+}
+
+.prateleira-nova-home h2 {
+	display: none;
+}
+
+.prateleira-nova-home-left .first-collection {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1000px;
+    float: right;
+    margin-right: 25px;
+}
+
+.prateleira-nova-home-right .first-collection {
+    margin-top: 20px;
+    margin-bottom: 20px;
+	width: 1000px;
+    float: left;
+    margin-left: 25px;
+}
+
+body.home .prateleira-nova-home ul li:nth-child(1) {
+    margin-left: 35px;
+}
+
+body.home .prateleira-nova-home ul li {
+    width: 320px;
+    height: 438px;
+    margin-left: 20px;
+    position: relative;
+}
+
+body.home .prateleira-nova-home ul li:hover .caixa-btn-new {
+    background: url(https://bbbaterias.vteximg.com.br/arquivos/ico-buy-btn-home.png) no-repeat #f2ca00 10px 2px;
+    border: solid 1px #f2ca00;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+body.home .prateleira-nova-home li .collection-image-link img {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body.home .prateleira-nova-home .name {
+	height: 36px;
+    overflow: hidden;
+}
+
+body.home .prateleira-nova-home li .name a {
+    font-size: 15px;
+    color: #000;
+    line-height: 1.2em;
+    text-decoration: none;
+    letter-spacing: -0.4px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+body.home .prateleira-nova-home li .price {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: -0.4px;
+}
+
+body.home .prateleira-nova-home li .old-price {
+	display: block;
+	font-size: 17px;
+	color: #808080;
+	text-align: left;
+	text-decoration: none;
+}
+
+body.home .prateleira-nova-home li .old-price span {
+    text-decoration: line-through;
+}
+
+body.home .prateleira-nova-home li .best-price {
+	display: block;
+	font-size: 24px;
+	color: #f2ca00;
+    text-align: left;
+	text-decoration: none;
+}
+
+body.home .prateleira-nova-home li .best-price span {
+    font-weight: bold;
+}
+
+body.home .prateleira-nova-home .caixa-btn-new {
+    width: 100%;
+    height: 33px;
+    background: url(https://bbbaterias.vteximg.com.br/arquivos/ico-buy-btn-home.png) no-repeat 10px 2px;
+    border: solid 1px #4D4D4D;
+    font-size: 16px;
+    color: #4D4D4D;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -0.4px;
+    line-height: 33px;
+    border-radius: 5px;
+    margin-top: 5px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+body.home .prateleira-nova-home .caixa-btn-new a {
+    text-decoration: none;
+    color: initial;
+}
+
+body.home .prateleira-nova-home ul .slick-prev {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 222px;
+  left: -25px;
+  margin-top: -30px;
+  background: url(/arquivos/arrow-left-new-home.png) no-repeat #bebebe 12px 9px;
+  border: none;
+  font-size: 0;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 100px;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+body.home .prateleira-nova-home ul .slick-prev:hover {
+    background: url(/arquivos/arrow-left-new-home.png) no-repeat #f2ca00 10px 9px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+body.home .prateleira-nova-home ul .slick-next {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 222px;
+  right: -25px;
+  margin-top: -30px;
+  background: url(/arquivos/arrow-right-new-home.png) no-repeat #bebebe 15px 9px;
+  border: none;
+  font-size: 0;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 100%;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+body.home .prateleira-nova-home ul .slick-next:hover {
+    background: url(/arquivos/arrow-right-new-home.png) no-repeat #f2ca00 17px 9px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+body.home .prateleira-nova-home li .descontoprice13 {
+    width: 50%;
+    height: auto;
+    float: right;
+    font-size: 10px;
+    text-align: right;
+    padding-top: 29px;
+    letter-spacing: -0.2px;
+}
+
+body.home .prateleira-nova-home .rf-bf-20w,
+body.home .prateleira-nova-home .rf-bf-300w,
+body.home .prateleira-nova-home .rf-bf-200w,
+body.home .prateleira-nova-home .rf-bf-50w,
+body.home .prateleira-nova-home .rf-bf-30w,
+body.home .prateleira-nova-home .rf-bf-10w,
+body.home .prateleira-nova-home .rf-bf-100w,
+body.home .prateleira-nova-home .rf-bq-50w,
+body.home .prateleira-nova-home .rf-bq-30w,
+body.home .prateleira-nova-home .rf-bq-10w,
+body.home .prateleira-nova-home .rf-bq-200w,
+body.home .prateleira-nova-home .rf-bq-100w,
+body.home .prateleira-nova-home .rf-bq-300w,
+body.home .prateleira-nova-home .rf-bq-20w,
+body.home .prateleira-nova-home .rf-vd-50w,
+body.home .prateleira-nova-home .rf-vd-20w,
+body.home .prateleira-nova-home .rf-vd-30w,
+body.home .prateleira-nova-home .rf-vd-10w,
+body.home .prateleira-nova-home .rf-rgb-30w,
+body.home .prateleira-nova-home .rf-rgb-20w,
+body.home .prateleira-nova-home .rf-rgb-10w,
+body.home .prateleira-nova-home .bf-25w,
+body.home .prateleira-nova-home .bf-36w,
+body.home .prateleira-nova-home .bf-24w,
+body.home .prateleira-nova-home .bf-18w,
+body.home .prateleira-nova-home .bf-6w,
+body.home .prateleira-nova-home .bf-12w,
+body.home .prateleira-nova-home .bq-25w,
+body.home .prateleira-nova-home .bq-24w,
+body.home .prateleira-nova-home .bq-18w,
+body.home .prateleira-nova-home .bq-6w,
+body.home .prateleira-nova-home .bq-12w {
+    display: none;
+}
+
+body.home .prateleira-nova-home .promo24::before {
+    background-image: url("/arquivos/promo24-red-new-shelf.png");
+    background-size: contain;
+    height: 55px;
+}
+
+body.home .prateleira-nova-home .promo29::before {
+    background-image: url("/arquivos/promo29-red-new-shelf.png");
+    background-size: contain;
+    height: 55px;
+}
+
+body.home .prateleira-nova-home .promo39::before {
+    background-image: url("/arquivos/promo39-red-new-shelf.png");
+    background-size: contain;
+    height: 55px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+
+	body.home .prateleira-nova-home ul li {
+		width: 240px;
+		height: 401px;
+	}
+	
+	body.home .prateleira-nova-home li .collection-image-link img {
+		width: 200px;
+		height: 200px;
+	}
+	
+	body.home .prateleira-nova-home .name {
+		height: 36px;
+	}
+		
+	.prateleira-nova-home-left .first-collection {
+    	width: 760px;
+	}
+
+	.prateleira-nova-home-right .first-collection {
+		width: 760px;
+	}
+	
+	body.home .prateleira-nova-home li .price {
+		width: 100%;
+	}
+
+	body.home .prateleira-nova-home li .descontoprice13 {
+		width: 100%;
+		text-align: left;
+		padding-top: 0px;
+		padding-bottom: 5px;
+	}
+	
+	.banner-shelf {
+	    width: 207px;
+		height: 401px;
+	    line-height: 449px;
+	}
+	
+	.banner-shelf .line {
+		margin-top: -215px;
+	}
+	
+	.prateleira-nova-home-left .line {
+		margin-left: 97px;
+	}
+		
+}
+
+@media only screen and (min-width: 1024px) {
+
+	.shelf-new {
+		display: inline-block;
+	}	
+	
+	.shelf-old {
+		display: none;
+	}
+	
+}
+	
+@media only screen and (max-width: 1023px) {
+
+	.shelf-new {
+		display: none;
+	}	
+	
+	.shelf-old {
+		display: inline-block;
+	}
+	
+}
